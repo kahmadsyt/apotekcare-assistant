@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Optional cache
+.streamlit/secrets.toml
+
+# Jangan upload file zip hasil build berulang jika tidak diperlukan
+artifacts/*.zip

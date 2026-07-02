@@ -1,0 +1,561 @@
+text,intent,clean_text
+halo,greeting,halo
+halo admin,greeting,halo admin
+halo saya mau bertanya,greeting,halo saya mau bertanya
+hai apotekcare,greeting,hai apotekcare
+hai apotekcare admin,greeting,hai apotekcare admin
+hai apotekcare saya mau bertanya,greeting,hai apotekcare saya mau bertanya
+selamat pagi,greeting,selamat pagi
+selamat pagi admin,greeting,selamat pagi admin
+selamat pagi saya mau bertanya,greeting,selamat pagi saya mau bertanya
+selamat siang admin,greeting,selamat siang admin
+selamat siang admin admin,greeting,selamat siang admin admin
+selamat siang admin saya mau bertanya,greeting,selamat siang admin saya mau bertanya
+permisi apotek,greeting,permisi apotek
+permisi apotek admin,greeting,permisi apotek admin
+permisi apotek saya mau bertanya,greeting,permisi apotek saya mau bertanya
+apakah ada admin,greeting,apakah ada admin
+apakah ada admin admin,greeting,apakah ada admin admin
+apakah ada admin saya mau bertanya,greeting,apakah ada admin saya mau bertanya
+halo saya mau tanya,greeting,halo saya mau tanya
+halo saya mau tanya admin,greeting,halo saya mau tanya admin
+halo saya mau tanya saya mau bertanya,greeting,halo saya mau tanya saya mau bertanya
+hai saya butuh bantuan,greeting,hai saya butuh bantuan
+hai saya butuh bantuan admin,greeting,hai saya butuh bantuan admin
+hai saya butuh bantuan saya mau bertanya,greeting,hai saya butuh bantuan saya mau bertanya
+apotek buka jam berapa,info_jam_operasional,apotek buka jam berapa
+mohon info apotek buka jam berapa,info_jam_operasional,mohon info apotek buka jam berapa
+saya ingin tanya apotek buka jam berapa,info_jam_operasional,saya ingin tanya apotek buka jam berapa
+bisa bantu apotek buka jam berapa,info_jam_operasional,bisa bantu apotek buka jam berapa
+jam operasional apotekcare,info_jam_operasional,jam operasional apotekcare
+mohon info jam operasional apotekcare,info_jam_operasional,mohon info jam operasional apotekcare
+saya ingin tanya jam operasional apotekcare,info_jam_operasional,saya ingin tanya jam operasional apotekcare
+bisa bantu jam operasional apotekcare,info_jam_operasional,bisa bantu jam operasional apotekcare
+apotek tutup jam berapa,info_jam_operasional,apotek tutup jam berapa
+mohon info apotek tutup jam berapa,info_jam_operasional,mohon info apotek tutup jam berapa
+saya ingin tanya apotek tutup jam berapa,info_jam_operasional,saya ingin tanya apotek tutup jam berapa
+bisa bantu apotek tutup jam berapa,info_jam_operasional,bisa bantu apotek tutup jam berapa
+hari minggu buka tidak,info_jam_operasional,hari minggu buka tidak
+mohon info hari minggu buka tidak,info_jam_operasional,mohon info hari minggu buka tidak
+saya ingin tanya hari minggu buka tidak,info_jam_operasional,saya ingin tanya hari minggu buka tidak
+bisa bantu hari minggu buka tidak,info_jam_operasional,bisa bantu hari minggu buka tidak
+apakah buka malam hari,info_jam_operasional,apakah buka malam hari
+mohon info apakah buka malam hari,info_jam_operasional,mohon info apakah buka malam hari
+saya ingin tanya apakah buka malam hari,info_jam_operasional,saya ingin tanya apakah buka malam hari
+bisa bantu apakah buka malam hari,info_jam_operasional,bisa bantu apakah buka malam hari
+jadwal buka apotek,info_jam_operasional,jadwal buka apotek
+mohon info jadwal buka apotek,info_jam_operasional,mohon info jadwal buka apotek
+saya ingin tanya jadwal buka apotek,info_jam_operasional,saya ingin tanya jadwal buka apotek
+bisa bantu jadwal buka apotek,info_jam_operasional,bisa bantu jadwal buka apotek
+apotek buka sampai jam berapa,info_jam_operasional,apotek buka sampai jam berapa
+mohon info apotek buka sampai jam berapa,info_jam_operasional,mohon info apotek buka sampai jam berapa
+saya ingin tanya apotek buka sampai jam berapa,info_jam_operasional,saya ingin tanya apotek buka sampai jam berapa
+bisa bantu apotek buka sampai jam berapa,info_jam_operasional,bisa bantu apotek buka sampai jam berapa
+jam layanan apotekcare hari ini,info_jam_operasional,jam layanan apotekcare hari ini
+mohon info jam layanan apotekcare hari ini,info_jam_operasional,mohon info jam layanan apotekcare hari ini
+saya ingin tanya jam layanan apotekcare hari ini,info_jam_operasional,saya ingin tanya jam layanan apotekcare hari ini
+bisa bantu jam layanan apotekcare hari ini,info_jam_operasional,bisa bantu jam layanan apotekcare hari ini
+bagaimana cara pesan obat,info_pemesanan,bagaimana cara pesan obat
+mohon info bagaimana cara pesan obat,info_pemesanan,mohon info bagaimana cara pesan obat
+saya ingin tanya bagaimana cara pesan obat,info_pemesanan,saya ingin tanya bagaimana cara pesan obat
+bisa bantu bagaimana cara pesan obat,info_pemesanan,bisa bantu bagaimana cara pesan obat
+bisa pesan lewat chat,info_pemesanan,bisa pesan lewat chat
+mohon info bisa pesan lewat chat,info_pemesanan,mohon info bisa pesan lewat chat
+saya ingin tanya bisa pesan lewat chat,info_pemesanan,saya ingin tanya bisa pesan lewat chat
+bisa bantu bisa pesan lewat chat,info_pemesanan,bisa bantu bisa pesan lewat chat
+saya mau order produk,info_pemesanan,saya mau order produk
+mohon info saya mau order produk,info_pemesanan,mohon info saya mau order produk
+saya ingin tanya saya mau order produk,info_pemesanan,saya ingin tanya saya mau order produk
+bisa bantu saya mau order produk,info_pemesanan,bisa bantu saya mau order produk
+apakah bisa beli online,info_pemesanan,apakah bisa beli online
+mohon info apakah bisa beli online,info_pemesanan,mohon info apakah bisa beli online
+saya ingin tanya apakah bisa beli online,info_pemesanan,saya ingin tanya apakah bisa beli online
+bisa bantu apakah bisa beli online,info_pemesanan,bisa bantu apakah bisa beli online
+cara membeli produk di apotekcare,info_pemesanan,cara membeli produk di apotekcare
+mohon info cara membeli produk di apotekcare,info_pemesanan,mohon info cara membeli produk di apotekcare
+saya ingin tanya cara membeli produk di apotekcare,info_pemesanan,saya ingin tanya cara membeli produk di apotekcare
+bisa bantu cara membeli produk di apotekcare,info_pemesanan,bisa bantu cara membeli produk di apotekcare
+saya ingin pesan vitamin,info_pemesanan,saya ingin pesan vitamin
+mohon info saya ingin pesan vitamin,info_pemesanan,mohon info saya ingin pesan vitamin
+saya ingin tanya saya ingin pesan vitamin,info_pemesanan,saya ingin tanya saya ingin pesan vitamin
+bisa bantu saya ingin pesan vitamin,info_pemesanan,bisa bantu saya ingin pesan vitamin
+mau beli produk lewat aplikasi,info_pemesanan,mau beli produk lewat aplikasi
+mohon info mau beli produk lewat aplikasi,info_pemesanan,mohon info mau beli produk lewat aplikasi
+saya ingin tanya mau beli produk lewat aplikasi,info_pemesanan,saya ingin tanya mau beli produk lewat aplikasi
+bisa bantu mau beli produk lewat aplikasi,info_pemesanan,bisa bantu mau beli produk lewat aplikasi
+prosedur pemesanan produk bagaimana,info_pemesanan,prosedur pemesanan produk bagaimana
+mohon info prosedur pemesanan produk bagaimana,info_pemesanan,mohon info prosedur pemesanan produk bagaimana
+saya ingin tanya prosedur pemesanan produk bagaimana,info_pemesanan,saya ingin tanya prosedur pemesanan produk bagaimana
+bisa bantu prosedur pemesanan produk bagaimana,info_pemesanan,bisa bantu prosedur pemesanan produk bagaimana
+apakah ada layanan antar,info_pengiriman,apakah ada layanan antar
+mohon info apakah ada layanan antar,info_pengiriman,mohon info apakah ada layanan antar
+saya ingin tanya apakah ada layanan antar,info_pengiriman,saya ingin tanya apakah ada layanan antar
+bisa bantu apakah ada layanan antar,info_pengiriman,bisa bantu apakah ada layanan antar
+bisa dikirim ke rumah,info_pengiriman,bisa dikirim ke rumah
+mohon info bisa dikirim ke rumah,info_pengiriman,mohon info bisa dikirim ke rumah
+saya ingin tanya bisa dikirim ke rumah,info_pengiriman,saya ingin tanya bisa dikirim ke rumah
+bisa bantu bisa dikirim ke rumah,info_pengiriman,bisa bantu bisa dikirim ke rumah
+ongkirnya berapa,info_pengiriman,ongkirnya berapa
+mohon info ongkirnya berapa,info_pengiriman,mohon info ongkirnya berapa
+saya ingin tanya ongkirnya berapa,info_pengiriman,saya ingin tanya ongkirnya berapa
+bisa bantu ongkirnya berapa,info_pengiriman,bisa bantu ongkirnya berapa
+pengiriman sampai area mana,info_pengiriman,pengiriman sampai area mana
+mohon info pengiriman sampai area mana,info_pengiriman,mohon info pengiriman sampai area mana
+saya ingin tanya pengiriman sampai area mana,info_pengiriman,saya ingin tanya pengiriman sampai area mana
+bisa bantu pengiriman sampai area mana,info_pengiriman,bisa bantu pengiriman sampai area mana
+berapa lama produk dikirim,info_pengiriman,berapa lama produk dikirim
+mohon info berapa lama produk dikirim,info_pengiriman,mohon info berapa lama produk dikirim
+saya ingin tanya berapa lama produk dikirim,info_pengiriman,saya ingin tanya berapa lama produk dikirim
+bisa bantu berapa lama produk dikirim,info_pengiriman,bisa bantu berapa lama produk dikirim
+apakah bisa delivery obat,info_pengiriman,apakah bisa delivery obat
+mohon info apakah bisa delivery obat,info_pengiriman,mohon info apakah bisa delivery obat
+saya ingin tanya apakah bisa delivery obat,info_pengiriman,saya ingin tanya apakah bisa delivery obat
+bisa bantu apakah bisa delivery obat,info_pengiriman,bisa bantu apakah bisa delivery obat
+layanan kirim apotek tersedia tidak,info_pengiriman,layanan kirim apotek tersedia tidak
+mohon info layanan kirim apotek tersedia tidak,info_pengiriman,mohon info layanan kirim apotek tersedia tidak
+saya ingin tanya layanan kirim apotek tersedia tidak,info_pengiriman,saya ingin tanya layanan kirim apotek tersedia tidak
+bisa bantu layanan kirim apotek tersedia tidak,info_pengiriman,bisa bantu layanan kirim apotek tersedia tidak
+produk bisa diantar hari ini tidak,info_pengiriman,produk bisa diantar hari ini tidak
+mohon info produk bisa diantar hari ini tidak,info_pengiriman,mohon info produk bisa diantar hari ini tidak
+saya ingin tanya produk bisa diantar hari ini tidak,info_pengiriman,saya ingin tanya produk bisa diantar hari ini tidak
+bisa bantu produk bisa diantar hari ini tidak,info_pengiriman,bisa bantu produk bisa diantar hari ini tidak
+bisa bayar pakai qris,info_pembayaran,bisa bayar pakai qris
+mohon info bisa bayar pakai qris,info_pembayaran,mohon info bisa bayar pakai qris
+saya ingin tanya bisa bayar pakai qris,info_pembayaran,saya ingin tanya bisa bayar pakai qris
+bisa bantu bisa bayar pakai qris,info_pembayaran,bisa bantu bisa bayar pakai qris
+metode pembayaran apa saja,info_pembayaran,metode pembayaran apa saja
+mohon info metode pembayaran apa saja,info_pembayaran,mohon info metode pembayaran apa saja
+saya ingin tanya metode pembayaran apa saja,info_pembayaran,saya ingin tanya metode pembayaran apa saja
+bisa bantu metode pembayaran apa saja,info_pembayaran,bisa bantu metode pembayaran apa saja
+apakah bisa transfer bank,info_pembayaran,apakah bisa transfer bank
+mohon info apakah bisa transfer bank,info_pembayaran,mohon info apakah bisa transfer bank
+saya ingin tanya apakah bisa transfer bank,info_pembayaran,saya ingin tanya apakah bisa transfer bank
+bisa bantu apakah bisa transfer bank,info_pembayaran,bisa bantu apakah bisa transfer bank
+bisa bayar cash,info_pembayaran,bisa bayar cash
+mohon info bisa bayar cash,info_pembayaran,mohon info bisa bayar cash
+saya ingin tanya bisa bayar cash,info_pembayaran,saya ingin tanya bisa bayar cash
+bisa bantu bisa bayar cash,info_pembayaran,bisa bantu bisa bayar cash
+pembayaran digital tersedia tidak,info_pembayaran,pembayaran digital tersedia tidak
+mohon info pembayaran digital tersedia tidak,info_pembayaran,mohon info pembayaran digital tersedia tidak
+saya ingin tanya pembayaran digital tersedia tidak,info_pembayaran,saya ingin tanya pembayaran digital tersedia tidak
+bisa bantu pembayaran digital tersedia tidak,info_pembayaran,bisa bantu pembayaran digital tersedia tidak
+apakah menerima e wallet,info_pembayaran,apakah menerima e wallet
+mohon info apakah menerima e wallet,info_pembayaran,mohon info apakah menerima e wallet
+saya ingin tanya apakah menerima e wallet,info_pembayaran,saya ingin tanya apakah menerima e wallet
+bisa bantu apakah menerima e wallet,info_pembayaran,bisa bantu apakah menerima e wallet
+bayar di tempat bisa tidak,info_pembayaran,bayar di tempat bisa tidak
+mohon info bayar di tempat bisa tidak,info_pembayaran,mohon info bayar di tempat bisa tidak
+saya ingin tanya bayar di tempat bisa tidak,info_pembayaran,saya ingin tanya bayar di tempat bisa tidak
+bisa bantu bayar di tempat bisa tidak,info_pembayaran,bisa bantu bayar di tempat bisa tidak
+cara pembayaran pesanan apotek,info_pembayaran,cara pembayaran pesanan apotek
+mohon info cara pembayaran pesanan apotek,info_pembayaran,mohon info cara pembayaran pesanan apotek
+saya ingin tanya cara pembayaran pesanan apotek,info_pembayaran,saya ingin tanya cara pembayaran pesanan apotek
+bisa bantu cara pembayaran pesanan apotek,info_pembayaran,bisa bantu cara pembayaran pesanan apotek
+apakah bisa tebus resep,info_resep,apakah bisa tebus resep
+mohon info apakah bisa tebus resep,info_resep,mohon info apakah bisa tebus resep
+saya ingin tanya apakah bisa tebus resep,info_resep,saya ingin tanya apakah bisa tebus resep
+bisa bantu apakah bisa tebus resep,info_resep,bisa bantu apakah bisa tebus resep
+saya punya resep dokter,info_resep,saya punya resep dokter
+mohon info saya punya resep dokter,info_resep,mohon info saya punya resep dokter
+saya ingin tanya saya punya resep dokter,info_resep,saya ingin tanya saya punya resep dokter
+bisa bantu saya punya resep dokter,info_resep,bisa bantu saya punya resep dokter
+bagaimana kirim resep,info_resep,bagaimana kirim resep
+mohon info bagaimana kirim resep,info_resep,mohon info bagaimana kirim resep
+saya ingin tanya bagaimana kirim resep,info_resep,saya ingin tanya bagaimana kirim resep
+bisa bantu bagaimana kirim resep,info_resep,bisa bantu bagaimana kirim resep
+apakah resep harus dibawa,info_resep,apakah resep harus dibawa
+mohon info apakah resep harus dibawa,info_resep,mohon info apakah resep harus dibawa
+saya ingin tanya apakah resep harus dibawa,info_resep,saya ingin tanya apakah resep harus dibawa
+bisa bantu apakah resep harus dibawa,info_resep,bisa bantu apakah resep harus dibawa
+bisa beli obat resep tidak,info_resep,bisa beli obat resep tidak
+mohon info bisa beli obat resep tidak,info_resep,mohon info bisa beli obat resep tidak
+saya ingin tanya bisa beli obat resep tidak,info_resep,saya ingin tanya bisa beli obat resep tidak
+bisa bantu bisa beli obat resep tidak,info_resep,bisa bantu bisa beli obat resep tidak
+cara menebus resep dokter,info_resep,cara menebus resep dokter
+mohon info cara menebus resep dokter,info_resep,mohon info cara menebus resep dokter
+saya ingin tanya cara menebus resep dokter,info_resep,saya ingin tanya cara menebus resep dokter
+bisa bantu cara menebus resep dokter,info_resep,bisa bantu cara menebus resep dokter
+obat resep bisa dipesan online tidak,info_resep,obat resep bisa dipesan online tidak
+mohon info obat resep bisa dipesan online tidak,info_resep,mohon info obat resep bisa dipesan online tidak
+saya ingin tanya obat resep bisa dipesan online tidak,info_resep,saya ingin tanya obat resep bisa dipesan online tidak
+bisa bantu obat resep bisa dipesan online tidak,info_resep,bisa bantu obat resep bisa dipesan online tidak
+apakah resep akan dicek apoteker,info_resep,apakah resep akan dicek apoteker
+mohon info apakah resep akan dicek apoteker,info_resep,mohon info apakah resep akan dicek apoteker
+saya ingin tanya apakah resep akan dicek apoteker,info_resep,saya ingin tanya apakah resep akan dicek apoteker
+bisa bantu apakah resep akan dicek apoteker,info_resep,bisa bantu apakah resep akan dicek apoteker
+apakah bisa konsultasi dengan apoteker,konsultasi_apoteker,apakah bisa konsultasi dengan apoteker
+mohon info apakah bisa konsultasi dengan apoteker,konsultasi_apoteker,mohon info apakah bisa konsultasi dengan apoteker
+saya ingin tanya apakah bisa konsultasi dengan apoteker,konsultasi_apoteker,saya ingin tanya apakah bisa konsultasi dengan apoteker
+bisa bantu apakah bisa konsultasi dengan apoteker,konsultasi_apoteker,bisa bantu apakah bisa konsultasi dengan apoteker
+saya ingin tanya efek samping obat,konsultasi_apoteker,saya ingin tanya efek samping obat
+mohon info saya ingin tanya efek samping obat,konsultasi_apoteker,mohon info saya ingin tanya efek samping obat
+saya ingin tanya saya ingin tanya efek samping obat,konsultasi_apoteker,saya ingin tanya saya ingin tanya efek samping obat
+bisa bantu saya ingin tanya efek samping obat,konsultasi_apoteker,bisa bantu saya ingin tanya efek samping obat
+mau tanya cara pakai obat,konsultasi_apoteker,mau tanya cara pakai obat
+mohon info mau tanya cara pakai obat,konsultasi_apoteker,mohon info mau tanya cara pakai obat
+saya ingin tanya mau tanya cara pakai obat,konsultasi_apoteker,saya ingin tanya mau tanya cara pakai obat
+bisa bantu mau tanya cara pakai obat,konsultasi_apoteker,bisa bantu mau tanya cara pakai obat
+boleh konsultasi penggunaan obat,konsultasi_apoteker,boleh konsultasi penggunaan obat
+mohon info boleh konsultasi penggunaan obat,konsultasi_apoteker,mohon info boleh konsultasi penggunaan obat
+saya ingin tanya boleh konsultasi penggunaan obat,konsultasi_apoteker,saya ingin tanya boleh konsultasi penggunaan obat
+bisa bantu boleh konsultasi penggunaan obat,konsultasi_apoteker,bisa bantu boleh konsultasi penggunaan obat
+butuh penjelasan dari apoteker,konsultasi_apoteker,butuh penjelasan dari apoteker
+mohon info butuh penjelasan dari apoteker,konsultasi_apoteker,mohon info butuh penjelasan dari apoteker
+saya ingin tanya butuh penjelasan dari apoteker,konsultasi_apoteker,saya ingin tanya butuh penjelasan dari apoteker
+bisa bantu butuh penjelasan dari apoteker,konsultasi_apoteker,bisa bantu butuh penjelasan dari apoteker
+bisa tanya interaksi obat,konsultasi_apoteker,bisa tanya interaksi obat
+mohon info bisa tanya interaksi obat,konsultasi_apoteker,mohon info bisa tanya interaksi obat
+saya ingin tanya bisa tanya interaksi obat,konsultasi_apoteker,saya ingin tanya bisa tanya interaksi obat
+bisa bantu bisa tanya interaksi obat,konsultasi_apoteker,bisa bantu bisa tanya interaksi obat
+saya minum beberapa obat boleh tanya apoteker,konsultasi_apoteker,saya minum beberapa obat boleh tanya apoteker
+mohon info saya minum beberapa obat boleh tanya apoteker,konsultasi_apoteker,mohon info saya minum beberapa obat boleh tanya apoteker
+saya ingin tanya saya minum beberapa obat boleh tanya apoteker,konsultasi_apoteker,saya ingin tanya saya minum beberapa obat boleh tanya apoteker
+bisa bantu saya minum beberapa obat boleh tanya apoteker,konsultasi_apoteker,bisa bantu saya minum beberapa obat boleh tanya apoteker
+ingin bicara dengan apoteker,konsultasi_apoteker,ingin bicara dengan apoteker
+mohon info ingin bicara dengan apoteker,konsultasi_apoteker,mohon info ingin bicara dengan apoteker
+saya ingin tanya ingin bicara dengan apoteker,konsultasi_apoteker,saya ingin tanya ingin bicara dengan apoteker
+bisa bantu ingin bicara dengan apoteker,konsultasi_apoteker,bisa bantu ingin bicara dengan apoteker
+apakah paracetamol tersedia,cek_stok_produk,apakah paracetamol tersedia
+mohon info apakah paracetamol tersedia,cek_stok_produk,mohon info apakah paracetamol tersedia
+saya ingin tanya apakah paracetamol tersedia,cek_stok_produk,saya ingin tanya apakah paracetamol tersedia
+bisa bantu apakah paracetamol tersedia,cek_stok_produk,bisa bantu apakah paracetamol tersedia
+stok vitamin c ada,cek_stok_produk,stok vitamin c ada
+mohon info stok vitamin c ada,cek_stok_produk,mohon info stok vitamin c ada
+saya ingin tanya stok vitamin c ada,cek_stok_produk,saya ingin tanya stok vitamin c ada
+bisa bantu stok vitamin c ada,cek_stok_produk,bisa bantu stok vitamin c ada
+ada termometer digital,cek_stok_produk,ada termometer digital
+mohon info ada termometer digital,cek_stok_produk,mohon info ada termometer digital
+saya ingin tanya ada termometer digital,cek_stok_produk,saya ingin tanya ada termometer digital
+bisa bantu ada termometer digital,cek_stok_produk,bisa bantu ada termometer digital
+cek stok masker,cek_stok_produk,cek stok masker
+mohon info cek stok masker,cek_stok_produk,mohon info cek stok masker
+saya ingin tanya cek stok masker,cek_stok_produk,saya ingin tanya cek stok masker
+bisa bantu cek stok masker,cek_stok_produk,bisa bantu cek stok masker
+produk batuk masih ada tidak,cek_stok_produk,produk batuk masih ada tidak
+mohon info produk batuk masih ada tidak,cek_stok_produk,mohon info produk batuk masih ada tidak
+saya ingin tanya produk batuk masih ada tidak,cek_stok_produk,saya ingin tanya produk batuk masih ada tidak
+bisa bantu produk batuk masih ada tidak,cek_stok_produk,bisa bantu produk batuk masih ada tidak
+saya mau cek ketersediaan produk,cek_stok_produk,saya mau cek ketersediaan produk
+mohon info saya mau cek ketersediaan produk,cek_stok_produk,mohon info saya mau cek ketersediaan produk
+saya ingin tanya saya mau cek ketersediaan produk,cek_stok_produk,saya ingin tanya saya mau cek ketersediaan produk
+bisa bantu saya mau cek ketersediaan produk,cek_stok_produk,bisa bantu saya mau cek ketersediaan produk
+apakah hand sanitizer tersedia,cek_stok_produk,apakah hand sanitizer tersedia
+mohon info apakah hand sanitizer tersedia,cek_stok_produk,mohon info apakah hand sanitizer tersedia
+saya ingin tanya apakah hand sanitizer tersedia,cek_stok_produk,saya ingin tanya apakah hand sanitizer tersedia
+bisa bantu apakah hand sanitizer tersedia,cek_stok_produk,bisa bantu apakah hand sanitizer tersedia
+stok obat maag ada tidak,cek_stok_produk,stok obat maag ada tidak
+mohon info stok obat maag ada tidak,cek_stok_produk,mohon info stok obat maag ada tidak
+saya ingin tanya stok obat maag ada tidak,cek_stok_produk,saya ingin tanya stok obat maag ada tidak
+bisa bantu stok obat maag ada tidak,cek_stok_produk,bisa bantu stok obat maag ada tidak
+saya batuk pilek butuh obat,rekomendasi_batuk_flu,saya batuk pilek butuh obat
+mohon info saya batuk pilek butuh obat,rekomendasi_batuk_flu,mohon info saya batuk pilek butuh obat
+saya ingin tanya saya batuk pilek butuh obat,rekomendasi_batuk_flu,saya ingin tanya saya batuk pilek butuh obat
+bisa bantu saya batuk pilek butuh obat,rekomendasi_batuk_flu,bisa bantu saya batuk pilek butuh obat
+rekomendasi untuk flu ringan,rekomendasi_batuk_flu,rekomendasi untuk flu ringan
+mohon info rekomendasi untuk flu ringan,rekomendasi_batuk_flu,mohon info rekomendasi untuk flu ringan
+saya ingin tanya rekomendasi untuk flu ringan,rekomendasi_batuk_flu,saya ingin tanya rekomendasi untuk flu ringan
+bisa bantu rekomendasi untuk flu ringan,rekomendasi_batuk_flu,bisa bantu rekomendasi untuk flu ringan
+tenggorokan gatal dan batuk,rekomendasi_batuk_flu,tenggorokan gatal dan batuk
+mohon info tenggorokan gatal dan batuk,rekomendasi_batuk_flu,mohon info tenggorokan gatal dan batuk
+saya ingin tanya tenggorokan gatal dan batuk,rekomendasi_batuk_flu,saya ingin tanya tenggorokan gatal dan batuk
+bisa bantu tenggorokan gatal dan batuk,rekomendasi_batuk_flu,bisa bantu tenggorokan gatal dan batuk
+produk untuk hidung tersumbat,rekomendasi_batuk_flu,produk untuk hidung tersumbat
+mohon info produk untuk hidung tersumbat,rekomendasi_batuk_flu,mohon info produk untuk hidung tersumbat
+saya ingin tanya produk untuk hidung tersumbat,rekomendasi_batuk_flu,saya ingin tanya produk untuk hidung tersumbat
+bisa bantu produk untuk hidung tersumbat,rekomendasi_batuk_flu,bisa bantu produk untuk hidung tersumbat
+ada obat batuk bebas,rekomendasi_batuk_flu,ada obat batuk bebas
+mohon info ada obat batuk bebas,rekomendasi_batuk_flu,mohon info ada obat batuk bebas
+saya ingin tanya ada obat batuk bebas,rekomendasi_batuk_flu,saya ingin tanya ada obat batuk bebas
+bisa bantu ada obat batuk bebas,rekomendasi_batuk_flu,bisa bantu ada obat batuk bebas
+saya sedang masuk angin dan pilek,rekomendasi_batuk_flu,saya sedang masuk angin dan pilek
+mohon info saya sedang masuk angin dan pilek,rekomendasi_batuk_flu,mohon info saya sedang masuk angin dan pilek
+saya ingin tanya saya sedang masuk angin dan pilek,rekomendasi_batuk_flu,saya ingin tanya saya sedang masuk angin dan pilek
+bisa bantu saya sedang masuk angin dan pilek,rekomendasi_batuk_flu,bisa bantu saya sedang masuk angin dan pilek
+produk apotek untuk batuk ringan apa,rekomendasi_batuk_flu,produk apotek untuk batuk ringan apa
+mohon info produk apotek untuk batuk ringan apa,rekomendasi_batuk_flu,mohon info produk apotek untuk batuk ringan apa
+saya ingin tanya produk apotek untuk batuk ringan apa,rekomendasi_batuk_flu,saya ingin tanya produk apotek untuk batuk ringan apa
+bisa bantu produk apotek untuk batuk ringan apa,rekomendasi_batuk_flu,bisa bantu produk apotek untuk batuk ringan apa
+flu ringan sebaiknya beli apa,rekomendasi_batuk_flu,flu ringan sebaiknya beli apa
+mohon info flu ringan sebaiknya beli apa,rekomendasi_batuk_flu,mohon info flu ringan sebaiknya beli apa
+saya ingin tanya flu ringan sebaiknya beli apa,rekomendasi_batuk_flu,saya ingin tanya flu ringan sebaiknya beli apa
+bisa bantu flu ringan sebaiknya beli apa,rekomendasi_batuk_flu,bisa bantu flu ringan sebaiknya beli apa
+saya demam ringan,rekomendasi_demam_nyeri,saya demam ringan
+mohon info saya demam ringan,rekomendasi_demam_nyeri,mohon info saya demam ringan
+saya ingin tanya saya demam ringan,rekomendasi_demam_nyeri,saya ingin tanya saya demam ringan
+bisa bantu saya demam ringan,rekomendasi_demam_nyeri,bisa bantu saya demam ringan
+badan pegal butuh obat,rekomendasi_demam_nyeri,badan pegal butuh obat
+mohon info badan pegal butuh obat,rekomendasi_demam_nyeri,mohon info badan pegal butuh obat
+saya ingin tanya badan pegal butuh obat,rekomendasi_demam_nyeri,saya ingin tanya badan pegal butuh obat
+bisa bantu badan pegal butuh obat,rekomendasi_demam_nyeri,bisa bantu badan pegal butuh obat
+ada penurun panas,rekomendasi_demam_nyeri,ada penurun panas
+mohon info ada penurun panas,rekomendasi_demam_nyeri,mohon info ada penurun panas
+saya ingin tanya ada penurun panas,rekomendasi_demam_nyeri,saya ingin tanya ada penurun panas
+bisa bantu ada penurun panas,rekomendasi_demam_nyeri,bisa bantu ada penurun panas
+kepala saya pusing ringan,rekomendasi_demam_nyeri,kepala saya pusing ringan
+mohon info kepala saya pusing ringan,rekomendasi_demam_nyeri,mohon info kepala saya pusing ringan
+saya ingin tanya kepala saya pusing ringan,rekomendasi_demam_nyeri,saya ingin tanya kepala saya pusing ringan
+bisa bantu kepala saya pusing ringan,rekomendasi_demam_nyeri,bisa bantu kepala saya pusing ringan
+produk untuk nyeri ringan,rekomendasi_demam_nyeri,produk untuk nyeri ringan
+mohon info produk untuk nyeri ringan,rekomendasi_demam_nyeri,mohon info produk untuk nyeri ringan
+saya ingin tanya produk untuk nyeri ringan,rekomendasi_demam_nyeri,saya ingin tanya produk untuk nyeri ringan
+bisa bantu produk untuk nyeri ringan,rekomendasi_demam_nyeri,bisa bantu produk untuk nyeri ringan
+rekomendasi untuk sakit kepala ringan,rekomendasi_demam_nyeri,rekomendasi untuk sakit kepala ringan
+mohon info rekomendasi untuk sakit kepala ringan,rekomendasi_demam_nyeri,mohon info rekomendasi untuk sakit kepala ringan
+saya ingin tanya rekomendasi untuk sakit kepala ringan,rekomendasi_demam_nyeri,saya ingin tanya rekomendasi untuk sakit kepala ringan
+bisa bantu rekomendasi untuk sakit kepala ringan,rekomendasi_demam_nyeri,bisa bantu rekomendasi untuk sakit kepala ringan
+butuh termometer dan obat demam,rekomendasi_demam_nyeri,butuh termometer dan obat demam
+mohon info butuh termometer dan obat demam,rekomendasi_demam_nyeri,mohon info butuh termometer dan obat demam
+saya ingin tanya butuh termometer dan obat demam,rekomendasi_demam_nyeri,saya ingin tanya butuh termometer dan obat demam
+bisa bantu butuh termometer dan obat demam,rekomendasi_demam_nyeri,bisa bantu butuh termometer dan obat demam
+badan panas dan nyeri apa yang tersedia,rekomendasi_demam_nyeri,badan panas dan nyeri apa yang tersedia
+mohon info badan panas dan nyeri apa yang tersedia,rekomendasi_demam_nyeri,mohon info badan panas dan nyeri apa yang tersedia
+saya ingin tanya badan panas dan nyeri apa yang tersedia,rekomendasi_demam_nyeri,saya ingin tanya badan panas dan nyeri apa yang tersedia
+bisa bantu badan panas dan nyeri apa yang tersedia,rekomendasi_demam_nyeri,bisa bantu badan panas dan nyeri apa yang tersedia
+vitamin untuk daya tahan tubuh,rekomendasi_vitamin,vitamin untuk daya tahan tubuh
+mohon info vitamin untuk daya tahan tubuh,rekomendasi_vitamin,mohon info vitamin untuk daya tahan tubuh
+saya ingin tanya vitamin untuk daya tahan tubuh,rekomendasi_vitamin,saya ingin tanya vitamin untuk daya tahan tubuh
+bisa bantu vitamin untuk daya tahan tubuh,rekomendasi_vitamin,bisa bantu vitamin untuk daya tahan tubuh
+ada multivitamin,rekomendasi_vitamin,ada multivitamin
+mohon info ada multivitamin,rekomendasi_vitamin,mohon info ada multivitamin
+saya ingin tanya ada multivitamin,rekomendasi_vitamin,saya ingin tanya ada multivitamin
+bisa bantu ada multivitamin,rekomendasi_vitamin,bisa bantu ada multivitamin
+rekomendasi vitamin c,rekomendasi_vitamin,rekomendasi vitamin c
+mohon info rekomendasi vitamin c,rekomendasi_vitamin,mohon info rekomendasi vitamin c
+saya ingin tanya rekomendasi vitamin c,rekomendasi_vitamin,saya ingin tanya rekomendasi vitamin c
+bisa bantu rekomendasi vitamin c,rekomendasi_vitamin,bisa bantu rekomendasi vitamin c
+suplemen agar tidak mudah lelah,rekomendasi_vitamin,suplemen agar tidak mudah lelah
+mohon info suplemen agar tidak mudah lelah,rekomendasi_vitamin,mohon info suplemen agar tidak mudah lelah
+saya ingin tanya suplemen agar tidak mudah lelah,rekomendasi_vitamin,saya ingin tanya suplemen agar tidak mudah lelah
+bisa bantu suplemen agar tidak mudah lelah,rekomendasi_vitamin,bisa bantu suplemen agar tidak mudah lelah
+vitamin untuk menjaga kesehatan,rekomendasi_vitamin,vitamin untuk menjaga kesehatan
+mohon info vitamin untuk menjaga kesehatan,rekomendasi_vitamin,mohon info vitamin untuk menjaga kesehatan
+saya ingin tanya vitamin untuk menjaga kesehatan,rekomendasi_vitamin,saya ingin tanya vitamin untuk menjaga kesehatan
+bisa bantu vitamin untuk menjaga kesehatan,rekomendasi_vitamin,bisa bantu vitamin untuk menjaga kesehatan
+ada zinc atau multivitamin,rekomendasi_vitamin,ada zinc atau multivitamin
+mohon info ada zinc atau multivitamin,rekomendasi_vitamin,mohon info ada zinc atau multivitamin
+saya ingin tanya ada zinc atau multivitamin,rekomendasi_vitamin,saya ingin tanya ada zinc atau multivitamin
+bisa bantu ada zinc atau multivitamin,rekomendasi_vitamin,bisa bantu ada zinc atau multivitamin
+produk untuk imun tubuh,rekomendasi_vitamin,produk untuk imun tubuh
+mohon info produk untuk imun tubuh,rekomendasi_vitamin,mohon info produk untuk imun tubuh
+saya ingin tanya produk untuk imun tubuh,rekomendasi_vitamin,saya ingin tanya produk untuk imun tubuh
+bisa bantu produk untuk imun tubuh,rekomendasi_vitamin,bisa bantu produk untuk imun tubuh
+vitamin harian apa yang tersedia,rekomendasi_vitamin,vitamin harian apa yang tersedia
+mohon info vitamin harian apa yang tersedia,rekomendasi_vitamin,mohon info vitamin harian apa yang tersedia
+saya ingin tanya vitamin harian apa yang tersedia,rekomendasi_vitamin,saya ingin tanya vitamin harian apa yang tersedia
+bisa bantu vitamin harian apa yang tersedia,rekomendasi_vitamin,bisa bantu vitamin harian apa yang tersedia
+apakah ada obat maag,rekomendasi_pencernaan,apakah ada obat maag
+mohon info apakah ada obat maag,rekomendasi_pencernaan,mohon info apakah ada obat maag
+saya ingin tanya apakah ada obat maag,rekomendasi_pencernaan,saya ingin tanya apakah ada obat maag
+bisa bantu apakah ada obat maag,rekomendasi_pencernaan,bisa bantu apakah ada obat maag
+perut saya kembung,rekomendasi_pencernaan,perut saya kembung
+mohon info perut saya kembung,rekomendasi_pencernaan,mohon info perut saya kembung
+saya ingin tanya perut saya kembung,rekomendasi_pencernaan,saya ingin tanya perut saya kembung
+bisa bantu perut saya kembung,rekomendasi_pencernaan,bisa bantu perut saya kembung
+ada oralit untuk diare,rekomendasi_pencernaan,ada oralit untuk diare
+mohon info ada oralit untuk diare,rekomendasi_pencernaan,mohon info ada oralit untuk diare
+saya ingin tanya ada oralit untuk diare,rekomendasi_pencernaan,saya ingin tanya ada oralit untuk diare
+bisa bantu ada oralit untuk diare,rekomendasi_pencernaan,bisa bantu ada oralit untuk diare
+produk untuk lambung ringan,rekomendasi_pencernaan,produk untuk lambung ringan
+mohon info produk untuk lambung ringan,rekomendasi_pencernaan,mohon info produk untuk lambung ringan
+saya ingin tanya produk untuk lambung ringan,rekomendasi_pencernaan,saya ingin tanya produk untuk lambung ringan
+bisa bantu produk untuk lambung ringan,rekomendasi_pencernaan,bisa bantu produk untuk lambung ringan
+rekomendasi untuk diare ringan,rekomendasi_pencernaan,rekomendasi untuk diare ringan
+mohon info rekomendasi untuk diare ringan,rekomendasi_pencernaan,mohon info rekomendasi untuk diare ringan
+saya ingin tanya rekomendasi untuk diare ringan,rekomendasi_pencernaan,saya ingin tanya rekomendasi untuk diare ringan
+bisa bantu rekomendasi untuk diare ringan,rekomendasi_pencernaan,bisa bantu rekomendasi untuk diare ringan
+saya mual dan maag ringan,rekomendasi_pencernaan,saya mual dan maag ringan
+mohon info saya mual dan maag ringan,rekomendasi_pencernaan,mohon info saya mual dan maag ringan
+saya ingin tanya saya mual dan maag ringan,rekomendasi_pencernaan,saya ingin tanya saya mual dan maag ringan
+bisa bantu saya mual dan maag ringan,rekomendasi_pencernaan,bisa bantu saya mual dan maag ringan
+ada antasida tidak,rekomendasi_pencernaan,ada antasida tidak
+mohon info ada antasida tidak,rekomendasi_pencernaan,mohon info ada antasida tidak
+saya ingin tanya ada antasida tidak,rekomendasi_pencernaan,saya ingin tanya ada antasida tidak
+bisa bantu ada antasida tidak,rekomendasi_pencernaan,bisa bantu ada antasida tidak
+butuh produk pencernaan ringan,rekomendasi_pencernaan,butuh produk pencernaan ringan
+mohon info butuh produk pencernaan ringan,rekomendasi_pencernaan,mohon info butuh produk pencernaan ringan
+saya ingin tanya butuh produk pencernaan ringan,rekomendasi_pencernaan,saya ingin tanya butuh produk pencernaan ringan
+bisa bantu butuh produk pencernaan ringan,rekomendasi_pencernaan,bisa bantu butuh produk pencernaan ringan
+ada termometer,rekomendasi_alat_kesehatan,ada termometer
+mohon info ada termometer,rekomendasi_alat_kesehatan,mohon info ada termometer
+saya ingin tanya ada termometer,rekomendasi_alat_kesehatan,saya ingin tanya ada termometer
+bisa bantu ada termometer,rekomendasi_alat_kesehatan,bisa bantu ada termometer
+butuh alat cek gula darah,rekomendasi_alat_kesehatan,butuh alat cek gula darah
+mohon info butuh alat cek gula darah,rekomendasi_alat_kesehatan,mohon info butuh alat cek gula darah
+saya ingin tanya butuh alat cek gula darah,rekomendasi_alat_kesehatan,saya ingin tanya butuh alat cek gula darah
+bisa bantu butuh alat cek gula darah,rekomendasi_alat_kesehatan,bisa bantu butuh alat cek gula darah
+jual masker medis,rekomendasi_alat_kesehatan,jual masker medis
+mohon info jual masker medis,rekomendasi_alat_kesehatan,mohon info jual masker medis
+saya ingin tanya jual masker medis,rekomendasi_alat_kesehatan,saya ingin tanya jual masker medis
+bisa bantu jual masker medis,rekomendasi_alat_kesehatan,bisa bantu jual masker medis
+apakah ada hand sanitizer,rekomendasi_alat_kesehatan,apakah ada hand sanitizer
+mohon info apakah ada hand sanitizer,rekomendasi_alat_kesehatan,mohon info apakah ada hand sanitizer
+saya ingin tanya apakah ada hand sanitizer,rekomendasi_alat_kesehatan,saya ingin tanya apakah ada hand sanitizer
+bisa bantu apakah ada hand sanitizer,rekomendasi_alat_kesehatan,bisa bantu apakah ada hand sanitizer
+ada tensimeter tidak,rekomendasi_alat_kesehatan,ada tensimeter tidak
+mohon info ada tensimeter tidak,rekomendasi_alat_kesehatan,mohon info ada tensimeter tidak
+saya ingin tanya ada tensimeter tidak,rekomendasi_alat_kesehatan,saya ingin tanya ada tensimeter tidak
+bisa bantu ada tensimeter tidak,rekomendasi_alat_kesehatan,bisa bantu ada tensimeter tidak
+alat kesehatan ringan apa saja,rekomendasi_alat_kesehatan,alat kesehatan ringan apa saja
+mohon info alat kesehatan ringan apa saja,rekomendasi_alat_kesehatan,mohon info alat kesehatan ringan apa saja
+saya ingin tanya alat kesehatan ringan apa saja,rekomendasi_alat_kesehatan,saya ingin tanya alat kesehatan ringan apa saja
+bisa bantu alat kesehatan ringan apa saja,rekomendasi_alat_kesehatan,bisa bantu alat kesehatan ringan apa saja
+butuh strip gula darah,rekomendasi_alat_kesehatan,butuh strip gula darah
+mohon info butuh strip gula darah,rekomendasi_alat_kesehatan,mohon info butuh strip gula darah
+saya ingin tanya butuh strip gula darah,rekomendasi_alat_kesehatan,saya ingin tanya butuh strip gula darah
+bisa bantu butuh strip gula darah,rekomendasi_alat_kesehatan,bisa bantu butuh strip gula darah
+jual alat cek suhu tubuh,rekomendasi_alat_kesehatan,jual alat cek suhu tubuh
+mohon info jual alat cek suhu tubuh,rekomendasi_alat_kesehatan,mohon info jual alat cek suhu tubuh
+saya ingin tanya jual alat cek suhu tubuh,rekomendasi_alat_kesehatan,saya ingin tanya jual alat cek suhu tubuh
+bisa bantu jual alat cek suhu tubuh,rekomendasi_alat_kesehatan,bisa bantu jual alat cek suhu tubuh
+apakah tersedia produk bayi,rekomendasi_produk_bayi,apakah tersedia produk bayi
+mohon info apakah tersedia produk bayi,rekomendasi_produk_bayi,mohon info apakah tersedia produk bayi
+saya ingin tanya apakah tersedia produk bayi,rekomendasi_produk_bayi,saya ingin tanya apakah tersedia produk bayi
+bisa bantu apakah tersedia produk bayi,rekomendasi_produk_bayi,bisa bantu apakah tersedia produk bayi
+ada minyak telon,rekomendasi_produk_bayi,ada minyak telon
+mohon info ada minyak telon,rekomendasi_produk_bayi,mohon info ada minyak telon
+saya ingin tanya ada minyak telon,rekomendasi_produk_bayi,saya ingin tanya ada minyak telon
+bisa bantu ada minyak telon,rekomendasi_produk_bayi,bisa bantu ada minyak telon
+jual popok bayi tidak,rekomendasi_produk_bayi,jual popok bayi tidak
+mohon info jual popok bayi tidak,rekomendasi_produk_bayi,mohon info jual popok bayi tidak
+saya ingin tanya jual popok bayi tidak,rekomendasi_produk_bayi,saya ingin tanya jual popok bayi tidak
+bisa bantu jual popok bayi tidak,rekomendasi_produk_bayi,bisa bantu jual popok bayi tidak
+produk perawatan bayi apa saja,rekomendasi_produk_bayi,produk perawatan bayi apa saja
+mohon info produk perawatan bayi apa saja,rekomendasi_produk_bayi,mohon info produk perawatan bayi apa saja
+saya ingin tanya produk perawatan bayi apa saja,rekomendasi_produk_bayi,saya ingin tanya produk perawatan bayi apa saja
+bisa bantu produk perawatan bayi apa saja,rekomendasi_produk_bayi,bisa bantu produk perawatan bayi apa saja
+ada tisu basah bayi,rekomendasi_produk_bayi,ada tisu basah bayi
+mohon info ada tisu basah bayi,rekomendasi_produk_bayi,mohon info ada tisu basah bayi
+saya ingin tanya ada tisu basah bayi,rekomendasi_produk_bayi,saya ingin tanya ada tisu basah bayi
+bisa bantu ada tisu basah bayi,rekomendasi_produk_bayi,bisa bantu ada tisu basah bayi
+butuh perlengkapan bayi,rekomendasi_produk_bayi,butuh perlengkapan bayi
+mohon info butuh perlengkapan bayi,rekomendasi_produk_bayi,mohon info butuh perlengkapan bayi
+saya ingin tanya butuh perlengkapan bayi,rekomendasi_produk_bayi,saya ingin tanya butuh perlengkapan bayi
+bisa bantu butuh perlengkapan bayi,rekomendasi_produk_bayi,bisa bantu butuh perlengkapan bayi
+apakah ada produk bayi non obat,rekomendasi_produk_bayi,apakah ada produk bayi non obat
+mohon info apakah ada produk bayi non obat,rekomendasi_produk_bayi,mohon info apakah ada produk bayi non obat
+saya ingin tanya apakah ada produk bayi non obat,rekomendasi_produk_bayi,saya ingin tanya apakah ada produk bayi non obat
+bisa bantu apakah ada produk bayi non obat,rekomendasi_produk_bayi,bisa bantu apakah ada produk bayi non obat
+saya cari minyak telon bayi,rekomendasi_produk_bayi,saya cari minyak telon bayi
+mohon info saya cari minyak telon bayi,rekomendasi_produk_bayi,mohon info saya cari minyak telon bayi
+saya ingin tanya saya cari minyak telon bayi,rekomendasi_produk_bayi,saya ingin tanya saya cari minyak telon bayi
+bisa bantu saya cari minyak telon bayi,rekomendasi_produk_bayi,bisa bantu saya cari minyak telon bayi
+ada plester luka,rekomendasi_perawatan_luka,ada plester luka
+mohon info ada plester luka,rekomendasi_perawatan_luka,mohon info ada plester luka
+saya ingin tanya ada plester luka,rekomendasi_perawatan_luka,saya ingin tanya ada plester luka
+bisa bantu ada plester luka,rekomendasi_perawatan_luka,bisa bantu ada plester luka
+butuh kasa steril,rekomendasi_perawatan_luka,butuh kasa steril
+mohon info butuh kasa steril,rekomendasi_perawatan_luka,mohon info butuh kasa steril
+saya ingin tanya butuh kasa steril,rekomendasi_perawatan_luka,saya ingin tanya butuh kasa steril
+bisa bantu butuh kasa steril,rekomendasi_perawatan_luka,bisa bantu butuh kasa steril
+apakah ada antiseptik luar,rekomendasi_perawatan_luka,apakah ada antiseptik luar
+mohon info apakah ada antiseptik luar,rekomendasi_perawatan_luka,mohon info apakah ada antiseptik luar
+saya ingin tanya apakah ada antiseptik luar,rekomendasi_perawatan_luka,saya ingin tanya apakah ada antiseptik luar
+bisa bantu apakah ada antiseptik luar,rekomendasi_perawatan_luka,bisa bantu apakah ada antiseptik luar
+produk untuk luka ringan,rekomendasi_perawatan_luka,produk untuk luka ringan
+mohon info produk untuk luka ringan,rekomendasi_perawatan_luka,mohon info produk untuk luka ringan
+saya ingin tanya produk untuk luka ringan,rekomendasi_perawatan_luka,saya ingin tanya produk untuk luka ringan
+bisa bantu produk untuk luka ringan,rekomendasi_perawatan_luka,bisa bantu produk untuk luka ringan
+ada kapas dan plester,rekomendasi_perawatan_luka,ada kapas dan plester
+mohon info ada kapas dan plester,rekomendasi_perawatan_luka,mohon info ada kapas dan plester
+saya ingin tanya ada kapas dan plester,rekomendasi_perawatan_luka,saya ingin tanya ada kapas dan plester
+bisa bantu ada kapas dan plester,rekomendasi_perawatan_luka,bisa bantu ada kapas dan plester
+perawatan luka kecil pakai apa,rekomendasi_perawatan_luka,perawatan luka kecil pakai apa
+mohon info perawatan luka kecil pakai apa,rekomendasi_perawatan_luka,mohon info perawatan luka kecil pakai apa
+saya ingin tanya perawatan luka kecil pakai apa,rekomendasi_perawatan_luka,saya ingin tanya perawatan luka kecil pakai apa
+bisa bantu perawatan luka kecil pakai apa,rekomendasi_perawatan_luka,bisa bantu perawatan luka kecil pakai apa
+saya butuh perlengkapan luka ringan,rekomendasi_perawatan_luka,saya butuh perlengkapan luka ringan
+mohon info saya butuh perlengkapan luka ringan,rekomendasi_perawatan_luka,mohon info saya butuh perlengkapan luka ringan
+saya ingin tanya saya butuh perlengkapan luka ringan,rekomendasi_perawatan_luka,saya ingin tanya saya butuh perlengkapan luka ringan
+bisa bantu saya butuh perlengkapan luka ringan,rekomendasi_perawatan_luka,bisa bantu saya butuh perlengkapan luka ringan
+jual obat luar untuk luka ringan,rekomendasi_perawatan_luka,jual obat luar untuk luka ringan
+mohon info jual obat luar untuk luka ringan,rekomendasi_perawatan_luka,mohon info jual obat luar untuk luka ringan
+saya ingin tanya jual obat luar untuk luka ringan,rekomendasi_perawatan_luka,saya ingin tanya jual obat luar untuk luka ringan
+bisa bantu jual obat luar untuk luka ringan,rekomendasi_perawatan_luka,bisa bantu jual obat luar untuk luka ringan
+apakah ada promo produk kesehatan,info_promo,apakah ada promo produk kesehatan
+mohon info apakah ada promo produk kesehatan,info_promo,mohon info apakah ada promo produk kesehatan
+saya ingin tanya apakah ada promo produk kesehatan,info_promo,saya ingin tanya apakah ada promo produk kesehatan
+bisa bantu apakah ada promo produk kesehatan,info_promo,bisa bantu apakah ada promo produk kesehatan
+promo vitamin ada tidak,info_promo,promo vitamin ada tidak
+mohon info promo vitamin ada tidak,info_promo,mohon info promo vitamin ada tidak
+saya ingin tanya promo vitamin ada tidak,info_promo,saya ingin tanya promo vitamin ada tidak
+bisa bantu promo vitamin ada tidak,info_promo,bisa bantu promo vitamin ada tidak
+diskon produk apotek apa saja,info_promo,diskon produk apotek apa saja
+mohon info diskon produk apotek apa saja,info_promo,mohon info diskon produk apotek apa saja
+saya ingin tanya diskon produk apotek apa saja,info_promo,saya ingin tanya diskon produk apotek apa saja
+bisa bantu diskon produk apotek apa saja,info_promo,bisa bantu diskon produk apotek apa saja
+ada promo hari ini,info_promo,ada promo hari ini
+mohon info ada promo hari ini,info_promo,mohon info ada promo hari ini
+saya ingin tanya ada promo hari ini,info_promo,saya ingin tanya ada promo hari ini
+bisa bantu ada promo hari ini,info_promo,bisa bantu ada promo hari ini
+produk kesehatan yang sedang promo,info_promo,produk kesehatan yang sedang promo
+mohon info produk kesehatan yang sedang promo,info_promo,mohon info produk kesehatan yang sedang promo
+saya ingin tanya produk kesehatan yang sedang promo,info_promo,saya ingin tanya produk kesehatan yang sedang promo
+bisa bantu produk kesehatan yang sedang promo,info_promo,bisa bantu produk kesehatan yang sedang promo
+apakah ada potongan harga,info_promo,apakah ada potongan harga
+mohon info apakah ada potongan harga,info_promo,mohon info apakah ada potongan harga
+saya ingin tanya apakah ada potongan harga,info_promo,saya ingin tanya apakah ada potongan harga
+bisa bantu apakah ada potongan harga,info_promo,bisa bantu apakah ada potongan harga
+promo masker dan vitamin,info_promo,promo masker dan vitamin
+mohon info promo masker dan vitamin,info_promo,mohon info promo masker dan vitamin
+saya ingin tanya promo masker dan vitamin,info_promo,saya ingin tanya promo masker dan vitamin
+bisa bantu promo masker dan vitamin,info_promo,bisa bantu promo masker dan vitamin
+informasi promo apotekcare,info_promo,informasi promo apotekcare
+mohon info informasi promo apotekcare,info_promo,mohon info informasi promo apotekcare
+saya ingin tanya informasi promo apotekcare,info_promo,saya ingin tanya informasi promo apotekcare
+bisa bantu informasi promo apotekcare,info_promo,bisa bantu informasi promo apotekcare
+apakah chatbot bisa diagnosis,batasan_medis,apakah chatbot bisa diagnosis
+mohon info apakah chatbot bisa diagnosis,batasan_medis,mohon info apakah chatbot bisa diagnosis
+saya ingin tanya apakah chatbot bisa diagnosis,batasan_medis,saya ingin tanya apakah chatbot bisa diagnosis
+bisa bantu apakah chatbot bisa diagnosis,batasan_medis,bisa bantu apakah chatbot bisa diagnosis
+saya ingin antibiotik tanpa resep,batasan_medis,saya ingin antibiotik tanpa resep
+mohon info saya ingin antibiotik tanpa resep,batasan_medis,mohon info saya ingin antibiotik tanpa resep
+saya ingin tanya saya ingin antibiotik tanpa resep,batasan_medis,saya ingin tanya saya ingin antibiotik tanpa resep
+bisa bantu saya ingin antibiotik tanpa resep,batasan_medis,bisa bantu saya ingin antibiotik tanpa resep
+boleh minta obat keras,batasan_medis,boleh minta obat keras
+mohon info boleh minta obat keras,batasan_medis,mohon info boleh minta obat keras
+saya ingin tanya boleh minta obat keras,batasan_medis,saya ingin tanya boleh minta obat keras
+bisa bantu boleh minta obat keras,batasan_medis,bisa bantu boleh minta obat keras
+bisa menentukan penyakit saya,batasan_medis,bisa menentukan penyakit saya
+mohon info bisa menentukan penyakit saya,batasan_medis,mohon info bisa menentukan penyakit saya
+saya ingin tanya bisa menentukan penyakit saya,batasan_medis,saya ingin tanya bisa menentukan penyakit saya
+bisa bantu bisa menentukan penyakit saya,batasan_medis,bisa bantu bisa menentukan penyakit saya
+obat resep tanpa dokter bisa tidak,batasan_medis,obat resep tanpa dokter bisa tidak
+mohon info obat resep tanpa dokter bisa tidak,batasan_medis,mohon info obat resep tanpa dokter bisa tidak
+saya ingin tanya obat resep tanpa dokter bisa tidak,batasan_medis,saya ingin tanya obat resep tanpa dokter bisa tidak
+bisa bantu obat resep tanpa dokter bisa tidak,batasan_medis,bisa bantu obat resep tanpa dokter bisa tidak
+tolong tentukan penyakit saya,batasan_medis,tolong tentukan penyakit saya
+mohon info tolong tentukan penyakit saya,batasan_medis,mohon info tolong tentukan penyakit saya
+saya ingin tanya tolong tentukan penyakit saya,batasan_medis,saya ingin tanya tolong tentukan penyakit saya
+bisa bantu tolong tentukan penyakit saya,batasan_medis,bisa bantu tolong tentukan penyakit saya
+saya hamil boleh minum obat apa,batasan_medis,saya hamil boleh minum obat apa
+mohon info saya hamil boleh minum obat apa,batasan_medis,mohon info saya hamil boleh minum obat apa
+saya ingin tanya saya hamil boleh minum obat apa,batasan_medis,saya ingin tanya saya hamil boleh minum obat apa
+bisa bantu saya hamil boleh minum obat apa,batasan_medis,bisa bantu saya hamil boleh minum obat apa
+anak bayi saya sakit obat apa,batasan_medis,anak bayi saya sakit obat apa
+mohon info anak bayi saya sakit obat apa,batasan_medis,mohon info anak bayi saya sakit obat apa
+saya ingin tanya anak bayi saya sakit obat apa,batasan_medis,saya ingin tanya anak bayi saya sakit obat apa
+bisa bantu anak bayi saya sakit obat apa,batasan_medis,bisa bantu anak bayi saya sakit obat apa
+siapa presiden indonesia,out_of_scope,siapa presiden indonesia
+saya ingin tahu siapa presiden indonesia,out_of_scope,saya ingin tahu siapa presiden indonesia
+tolong bantu siapa presiden indonesia,out_of_scope,tolong bantu siapa presiden indonesia
+tolong buatkan puisi cinta,out_of_scope,tolong buatkan puisi cinta
+saya ingin tahu tolong buatkan puisi cinta,out_of_scope,saya ingin tahu tolong buatkan puisi cinta
+tolong bantu tolong buatkan puisi cinta,out_of_scope,tolong bantu tolong buatkan puisi cinta
+bagaimana cara membuat website,out_of_scope,bagaimana cara membuat website
+saya ingin tahu bagaimana cara membuat website,out_of_scope,saya ingin tahu bagaimana cara membuat website
+tolong bantu bagaimana cara membuat website,out_of_scope,tolong bantu bagaimana cara membuat website
+rekomendasi laptop gaming apa,out_of_scope,rekomendasi laptop gaming apa
+saya ingin tahu rekomendasi laptop gaming apa,out_of_scope,saya ingin tahu rekomendasi laptop gaming apa
+tolong bantu rekomendasi laptop gaming apa,out_of_scope,tolong bantu rekomendasi laptop gaming apa
+berapa harga emas hari ini,out_of_scope,berapa harga emas hari ini
+saya ingin tahu berapa harga emas hari ini,out_of_scope,saya ingin tahu berapa harga emas hari ini
+tolong bantu berapa harga emas hari ini,out_of_scope,tolong bantu berapa harga emas hari ini
+apa rumus regresi linear,out_of_scope,apa rumus regresi linear
+saya ingin tahu apa rumus regresi linear,out_of_scope,saya ingin tahu apa rumus regresi linear
+tolong bantu apa rumus regresi linear,out_of_scope,tolong bantu apa rumus regresi linear
+cara setting router bagaimana,out_of_scope,cara setting router bagaimana
+saya ingin tahu cara setting router bagaimana,out_of_scope,saya ingin tahu cara setting router bagaimana
+tolong bantu cara setting router bagaimana,out_of_scope,tolong bantu cara setting router bagaimana
+tolong prediksi saham besok,out_of_scope,tolong prediksi saham besok
+saya ingin tahu tolong prediksi saham besok,out_of_scope,saya ingin tahu tolong prediksi saham besok
+tolong bantu tolong prediksi saham besok,out_of_scope,tolong bantu tolong prediksi saham besok
