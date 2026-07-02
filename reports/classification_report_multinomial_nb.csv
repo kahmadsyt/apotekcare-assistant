@@ -1,0 +1,22 @@
+,precision,recall,f1-score,support
+batasan_medis,1.0,1.0,1.0,8.0
+cek_stok_produk,1.0,1.0,1.0,8.0
+greeting,1.0,1.0,1.0,6.0
+info_jam_operasional,1.0,1.0,1.0,8.0
+info_pembayaran,1.0,1.0,1.0,8.0
+info_pemesanan,1.0,0.75,0.8571428571428571,8.0
+info_pengiriman,1.0,1.0,1.0,8.0
+info_promo,1.0,1.0,1.0,8.0
+info_resep,0.8,1.0,0.8888888888888888,8.0
+konsultasi_apoteker,1.0,1.0,1.0,8.0
+out_of_scope,1.0,1.0,1.0,6.0
+rekomendasi_alat_kesehatan,1.0,1.0,1.0,8.0
+rekomendasi_batuk_flu,1.0,1.0,1.0,8.0
+rekomendasi_demam_nyeri,0.7272727272727273,1.0,0.8421052631578947,8.0
+rekomendasi_pencernaan,1.0,0.5,0.6666666666666666,8.0
+rekomendasi_perawatan_luka,0.8888888888888888,1.0,0.9411764705882353,8.0
+rekomendasi_produk_bayi,1.0,1.0,1.0,8.0
+rekomendasi_vitamin,1.0,1.0,1.0,8.0
+accuracy,0.9571428571428572,0.9571428571428572,0.9571428571428572,0.9571428571428572
+macro avg,0.9675645342312009,0.9583333333333334,0.95533223035803,140.0
+weighted avg,0.9666378066378066,0.9571428571428572,0.9540560083682594,140.0

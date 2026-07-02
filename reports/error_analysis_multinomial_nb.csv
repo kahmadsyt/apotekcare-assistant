@@ -1,0 +1,141 @@
+text,actual_intent,predicted_intent,confidence,is_correct,error_type
+saya ingin tanya prosedur pemesanan produk bagaimana,info_pemesanan,info_pemesanan,0.39822440519279406,True,correct
+bisa bantu diskon produk apotek apa saja,info_promo,info_promo,0.42653949228168064,True,correct
+mohon info saya minum beberapa obat boleh tanya apoteker,konsultasi_apoteker,konsultasi_apoteker,0.6525077323795208,True,correct
+bisa bantu jam operasional apotekcare,info_jam_operasional,info_jam_operasional,0.5439953393594438,True,correct
+bisa bantu produk apotek untuk batuk ringan apa,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.6105260698903872,True,correct
+saya ingin tanya produk bisa diantar hari ini tidak,info_pengiriman,info_pengiriman,0.2672766926498519,True,correct
+saya ingin tanya alat kesehatan ringan apa saja,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.3292199410317108,True,correct
+mohon info butuh perlengkapan bayi,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.3906922494412991,True,correct
+butuh produk pencernaan ringan,rekomendasi_pencernaan,rekomendasi_demam_nyeri,0.20745710530781133,False,rekomendasi_pencernaan_as_rekomendasi_demam_nyeri
+apakah ada produk bayi non obat,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.531310614899597,True,correct
+saya ingin tanya saya ingin tanya efek samping obat,konsultasi_apoteker,konsultasi_apoteker,0.449166486512436,True,correct
+bisa bantu rekomendasi untuk diare ringan,rekomendasi_pencernaan,rekomendasi_pencernaan,0.4246785505643413,True,correct
+rekomendasi untuk diare ringan,rekomendasi_pencernaan,rekomendasi_pencernaan,0.5232930738061988,True,correct
+mohon info ada termometer digital,cek_stok_produk,cek_stok_produk,0.23159549592864603,True,correct
+mohon info bisa dikirim ke rumah,info_pengiriman,info_pengiriman,0.49959749739921877,True,correct
+saya ingin tanya saya batuk pilek butuh obat,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.5307183584224381,True,correct
+saya sedang masuk angin dan pilek,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.462239912741052,True,correct
+mohon info produk untuk imun tubuh,rekomendasi_vitamin,rekomendasi_vitamin,0.4030307010010326,True,correct
+tolong bantu tolong buatkan puisi cinta,out_of_scope,out_of_scope,0.3339127465132221,True,correct
+mohon info saya mau order produk,info_pemesanan,info_pemesanan,0.3306334470523868,True,correct
+saya ingin tanya apakah ada promo produk kesehatan,info_promo,info_promo,0.5998253231847098,True,correct
+mohon info apakah bisa tebus resep,info_resep,info_resep,0.5149541560574165,True,correct
+bisa bantu obat resep tanpa dokter bisa tidak,batasan_medis,batasan_medis,0.4628456459520177,True,correct
+mohon info hari minggu buka tidak,info_jam_operasional,info_jam_operasional,0.3338518560373729,True,correct
+mohon info rekomendasi untuk sakit kepala ringan,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.5262230518178809,True,correct
+hai apotekcare,greeting,greeting,0.2409187018650745,True,correct
+apakah bisa transfer bank,info_pembayaran,info_pembayaran,0.3314765319678353,True,correct
+mohon info butuh penjelasan dari apoteker,konsultasi_apoteker,konsultasi_apoteker,0.4554117061125723,True,correct
+bisa bantu badan pegal butuh obat,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.3987739895481125,True,correct
+apotek buka sampai jam berapa,info_jam_operasional,info_jam_operasional,0.8892242224267592,True,correct
+mohon info saya butuh perlengkapan luka ringan,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.5364262159452775,True,correct
+saya ingin tanya ongkirnya berapa,info_pengiriman,info_pengiriman,0.22744574986408225,True,correct
+mohon info produk untuk hidung tersumbat,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.41699455719436657,True,correct
+saya ingin tanya mau beli produk lewat aplikasi,info_pemesanan,info_pemesanan,0.564571399861525,True,correct
+mohon info rekomendasi untuk flu ringan,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.3648745331756899,True,correct
+mohon info promo masker dan vitamin,info_promo,info_promo,0.5808788590383017,True,correct
+saya mau order produk,info_pemesanan,info_pemesanan,0.34730232654378584,True,correct
+halo saya mau bertanya,greeting,greeting,0.6582071506947773,True,correct
+saya ingin tanya promo vitamin ada tidak,info_promo,info_promo,0.4767580858767986,True,correct
+bisa bantu jual obat luar untuk luka ringan,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.7454807964048151,True,correct
+bisa bantu butuh produk pencernaan ringan,rekomendasi_pencernaan,rekomendasi_demam_nyeri,0.16095526757423043,False,rekomendasi_pencernaan_as_rekomendasi_demam_nyeri
+saya ingin tanya butuh strip gula darah,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.6127016625852284,True,correct
+saya ingin tanya apakah bisa beli online,info_pemesanan,info_resep,0.2543999879343144,False,info_pemesanan_as_info_resep
+mohon info apakah ada produk bayi non obat,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.4762266496772938,True,correct
+saya demam ringan,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.5229826760052176,True,correct
+saya ingin tanya hari minggu buka tidak,info_jam_operasional,info_jam_operasional,0.31131009825983796,True,correct
+permisi apotek saya mau bertanya,greeting,greeting,0.4862465931369722,True,correct
+saya ingin tanya apakah bisa konsultasi dengan apoteker,konsultasi_apoteker,konsultasi_apoteker,0.6355131315197522,True,correct
+bisa bantu saya sedang masuk angin dan pilek,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.4355643830131323,True,correct
+saya ingin tanya ada penurun panas,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.1604280130293291,True,correct
+bisa bantu boleh konsultasi penggunaan obat,konsultasi_apoteker,konsultasi_apoteker,0.5308427785584258,True,correct
+saya cari minyak telon bayi,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.7718819389459918,True,correct
+saya ingin tanya metode pembayaran apa saja,info_pembayaran,info_pembayaran,0.35242386545398596,True,correct
+saya punya resep dokter,info_resep,info_resep,0.5326562969256311,True,correct
+saya ingin tanya ada tensimeter tidak,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.23088923334526854,True,correct
+bisa bantu layanan kirim apotek tersedia tidak,info_pengiriman,info_pengiriman,0.5079446530442284,True,correct
+ada termometer,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.2760597413887,True,correct
+saya ingin tahu bagaimana cara membuat website,out_of_scope,out_of_scope,0.4630044008164398,True,correct
+mohon info alat kesehatan ringan apa saja,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.38278712388267816,True,correct
+bisa bantu produk kesehatan yang sedang promo,info_promo,info_promo,0.47710156456400565,True,correct
+tolong bantu siapa presiden indonesia,out_of_scope,out_of_scope,0.4750083846483916,True,correct
+bisa bantu berapa lama produk dikirim,info_pengiriman,info_pengiriman,0.4804377112785895,True,correct
+saya ingin tanya ada tisu basah bayi,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.5834742964024089,True,correct
+bisa bantu hari minggu buka tidak,info_jam_operasional,info_jam_operasional,0.3256875604994516,True,correct
+mohon info apakah bisa transfer bank,info_pembayaran,info_pembayaran,0.3043334754776926,True,correct
+bisa bantu jual masker medis,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.45599906858615663,True,correct
+mohon info produk perawatan bayi apa saja,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.3796964942403238,True,correct
+bisa bantu apakah hand sanitizer tersedia,cek_stok_produk,cek_stok_produk,0.4446068997894408,True,correct
+bisa bantu ada termometer digital,cek_stok_produk,cek_stok_produk,0.2158933893630077,True,correct
+apakah ada admin saya mau bertanya,greeting,greeting,0.5242805038538254,True,correct
+bisa bantu apakah resep harus dibawa,info_resep,info_resep,0.6497087720768757,True,correct
+mohon info cara menebus resep dokter,info_resep,info_resep,0.4421788923935883,True,correct
+mohon info ingin bicara dengan apoteker,konsultasi_apoteker,konsultasi_apoteker,0.6033469032097204,True,correct
+ada minyak telon,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.5900582461946375,True,correct
+bisa bantu cek stok masker,cek_stok_produk,cek_stok_produk,0.42718543244742196,True,correct
+tolong tentukan penyakit saya,batasan_medis,batasan_medis,0.588170367423209,True,correct
+bisa bantu kepala saya pusing ringan,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.5491594252144422,True,correct
+saya ingin tahu cara setting router bagaimana,out_of_scope,out_of_scope,0.4807326693189701,True,correct
+jadwal buka apotek,info_jam_operasional,info_jam_operasional,0.5199624467430866,True,correct
+mohon info saya mual dan maag ringan,rekomendasi_pencernaan,rekomendasi_pencernaan,0.5339706060492488,True,correct
+saya ingin tanya produk batuk masih ada tidak,cek_stok_produk,cek_stok_produk,0.45703544888381675,True,correct
+produk bisa diantar hari ini tidak,info_pengiriman,info_pengiriman,0.3433284939861587,True,correct
+butuh kasa steril,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.4525825677539845,True,correct
+mohon info bayar di tempat bisa tidak,info_pembayaran,info_pembayaran,0.3055212104784545,True,correct
+bisa bantu saya ingin antibiotik tanpa resep,batasan_medis,batasan_medis,0.39014860889318154,True,correct
+saya ingin tanya bisa tanya interaksi obat,konsultasi_apoteker,konsultasi_apoteker,0.4434799247816289,True,correct
+mohon info stok obat maag ada tidak,cek_stok_produk,cek_stok_produk,0.48208647309635966,True,correct
+saya ingin tanya bayar di tempat bisa tidak,info_pembayaran,info_pembayaran,0.2902240380285196,True,correct
+bisa bayar pakai qris,info_pembayaran,info_pembayaran,0.6462438107127035,True,correct
+saya ingin tanya bagaimana kirim resep,info_resep,info_resep,0.42602795191776466,True,correct
+saya ingin tanya stok obat maag ada tidak,cek_stok_produk,cek_stok_produk,0.44749376515441686,True,correct
+bisa bantu apakah ada hand sanitizer,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.29332128396335944,True,correct
+bisa bantu anak bayi saya sakit obat apa,batasan_medis,batasan_medis,0.45227262679001656,True,correct
+saya ingin tanya apakah bisa delivery obat,info_pengiriman,info_pengiriman,0.29703450741313453,True,correct
+saya ingin tanya cek stok masker,cek_stok_produk,cek_stok_produk,0.41736158892759195,True,correct
+permisi apotek admin,greeting,greeting,0.2691950595828429,True,correct
+bisa bantu perawatan luka kecil pakai apa,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.4433936809738267,True,correct
+apakah ada admin admin,greeting,greeting,0.26181643718616315,True,correct
+bisa bantu bisa beli obat resep tidak,info_resep,info_resep,0.5340691546123766,True,correct
+ada penurun panas,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.20206887721525268,True,correct
+saya ingin tanya vitamin untuk menjaga kesehatan,rekomendasi_vitamin,rekomendasi_vitamin,0.6163409834841357,True,correct
+saya ingin tanya bisa menentukan penyakit saya,batasan_medis,batasan_medis,0.4656299085710529,True,correct
+saya ingin tanya bisa pesan lewat chat,info_pemesanan,info_pemesanan,0.546375823654309,True,correct
+mohon info apakah bisa beli online,info_pemesanan,info_resep,0.22590892946776003,False,info_pemesanan_as_info_resep
+mohon info butuh produk pencernaan ringan,rekomendasi_pencernaan,rekomendasi_perawatan_luka,0.17156836274016754,False,rekomendasi_pencernaan_as_rekomendasi_perawatan_luka
+saya ingin tanya jadwal buka apotek,info_jam_operasional,info_jam_operasional,0.45162379395391206,True,correct
+saya ingin tanya saya ingin antibiotik tanpa resep,batasan_medis,batasan_medis,0.34611328459478796,True,correct
+bisa bantu saya butuh perlengkapan luka ringan,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.5058612251360716,True,correct
+saya ingin tanya perawatan luka kecil pakai apa,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.4439286298461457,True,correct
+ada kapas dan plester,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.43513063995497897,True,correct
+mohon info apakah ada promo produk kesehatan,info_promo,info_promo,0.6284891712072147,True,correct
+suplemen agar tidak mudah lelah,rekomendasi_vitamin,rekomendasi_vitamin,0.36434260009106134,True,correct
+bisa bantu ongkirnya berapa,info_pengiriman,info_pengiriman,0.291309951833574,True,correct
+saya ingin tanya badan pegal butuh obat,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.3920086685910663,True,correct
+bisa bantu vitamin untuk daya tahan tubuh,rekomendasi_vitamin,rekomendasi_vitamin,0.5985685797423974,True,correct
+mohon info ada antasida tidak,rekomendasi_pencernaan,rekomendasi_pencernaan,0.3537501874531376,True,correct
+saya ingin tanya ada kapas dan plester,rekomendasi_perawatan_luka,rekomendasi_perawatan_luka,0.3887436532214054,True,correct
+apa rumus regresi linear,out_of_scope,out_of_scope,0.29982000261426933,True,correct
+vitamin untuk daya tahan tubuh,rekomendasi_vitamin,rekomendasi_vitamin,0.5918442594329578,True,correct
+ada multivitamin,rekomendasi_vitamin,rekomendasi_vitamin,0.37730185198077854,True,correct
+ada tensimeter tidak,rekomendasi_alat_kesehatan,rekomendasi_alat_kesehatan,0.2844728303794658,True,correct
+tolong buatkan puisi cinta,out_of_scope,out_of_scope,0.21151966349200416,True,correct
+mohon info saya punya resep dokter,info_resep,info_resep,0.4269870236000108,True,correct
+anak bayi saya sakit obat apa,batasan_medis,batasan_medis,0.4616144040464521,True,correct
+bisa bantu suplemen agar tidak mudah lelah,rekomendasi_vitamin,rekomendasi_vitamin,0.34802525600590084,True,correct
+mohon info jam layanan apotekcare hari ini,info_jam_operasional,info_jam_operasional,0.6525623664951054,True,correct
+metode pembayaran apa saja,info_pembayaran,info_pembayaran,0.38716822433286757,True,correct
+mohon info ada penurun panas,rekomendasi_demam_nyeri,rekomendasi_demam_nyeri,0.16346882728470835,True,correct
+prosedur pemesanan produk bagaimana,info_pemesanan,info_pemesanan,0.4237133591230709,True,correct
+bisa bantu bayar di tempat bisa tidak,info_pembayaran,info_pembayaran,0.3220461578757829,True,correct
+bisa bantu produk perawatan bayi apa saja,rekomendasi_produk_bayi,rekomendasi_produk_bayi,0.4026469032502398,True,correct
+bisa bantu informasi promo apotekcare,info_promo,info_promo,0.5127090310596485,True,correct
+tenggorokan gatal dan batuk,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.588647810101239,True,correct
+bisa bantu ada zinc atau multivitamin,rekomendasi_vitamin,rekomendasi_vitamin,0.5443388540299563,True,correct
+produk kesehatan yang sedang promo,info_promo,info_promo,0.5656972809083927,True,correct
+mohon info mau tanya cara pakai obat,konsultasi_apoteker,konsultasi_apoteker,0.3890160447039576,True,correct
+rekomendasi untuk flu ringan,rekomendasi_batuk_flu,rekomendasi_batuk_flu,0.4711313506048606,True,correct
+saya ingin tanya boleh minta obat keras,batasan_medis,batasan_medis,0.45791553841688415,True,correct
+saya ingin tanya butuh produk pencernaan ringan,rekomendasi_pencernaan,rekomendasi_demam_nyeri,0.15778066848976524,False,rekomendasi_pencernaan_as_rekomendasi_demam_nyeri
+bisa bantu cara menebus resep dokter,info_resep,info_resep,0.46616291249770264,True,correct

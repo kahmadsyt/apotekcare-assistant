@@ -1,100 +1,100 @@
-"""Dashboard Streamlit ApotekCare Assistant."""
+"""
+Streamlit App TAHAP 02 - ApotekCare Assistant
 
-from pathlib import Path
+Jalankan:
+    streamlit run app/app.py
+"""
+
+from __future__ import annotations
+
 import sys
-import subprocess
+from pathlib import Path
 
-import pandas as pd
 import streamlit as st
 
-CURRENT_DIR = Path(__file__).resolve().parent
-ROOT_DIR = CURRENT_DIR.parents[0]
+# Agar import tetap aman saat streamlit dijalankan dari root project
+ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
     sys.path.append(str(ROOT_DIR))
 
-from app.chatbot_engine import chatbot_response, MODEL_PATH, VECTORIZER_PATH, LABEL_ENCODER_PATH
-
+from app.chatbot_engine import chatbot_response, load_metadata  # noqa: E402
 
 st.set_page_config(
     page_title="ApotekCare Assistant",
     page_icon="💊",
-    layout="wide"
+    layout="centered",
 )
 
 st.title("💊 ApotekCare Assistant")
-st.caption("Chatbot layanan apotek berbasis NLP, TF-IDF, dan supervised learning.")
+st.caption("Chatbot layanan apotek berbasis NLP dan Text Mining untuk UAS Data Mining.")
+
+with st.expander("Panduan singkat penggunaan", expanded=False):
+    st.write(
+        """
+        Contoh pertanyaan:
+        - Apakah ada rekomendasi vitamin untuk daya tahan tubuh?
+        - Apakah stok obat batuk tersedia?
+        - Jam operasional apotek sampai jam berapa?
+        - Saya flu ringan, produk apa yang bisa dibeli bebas?
+
+        Batasan:
+        - Chatbot tidak memberikan diagnosis, resep dokter, atau dosis personal.
+        - Untuk kondisi berat, bayi, ibu hamil/menyusui, antibiotik, atau penyakit kronis,
+          konsultasikan langsung dengan dokter atau apoteker.
+        """
+    )
+
+metadata = load_metadata()
+default_threshold = float(metadata.get("confidence_threshold", 0.45))
 
 with st.sidebar:
-    st.header("Panduan Penggunaan")
-    st.write(
-        "Tanyakan layanan apotek seperti jam operasional, pemesanan, pengiriman, pembayaran, "
-        "cek stok, resep dokter, atau rekomendasi kategori produk umum."
+    st.header("Pengaturan")
+    threshold = st.slider(
+        "Confidence threshold",
+        min_value=0.10,
+        max_value=0.90,
+        value=default_threshold,
+        step=0.05,
+        help="Semakin tinggi threshold, chatbot semakin berhati-hati dan lebih sering fallback.",
     )
-    st.warning(
-        "Chatbot tidak melakukan diagnosis medis dan tidak merekomendasikan obat keras/antibiotik secara otomatis."
-    )
+    st.caption(f"Model aktif: {metadata.get('best_model', 'baseline/stage02')}")
 
-    st.subheader("Contoh pertanyaan")
-    st.markdown("- Apotek buka jam berapa?")
-    st.markdown("- Saya batuk pilek, produk apa yang tersedia?")
-    st.markdown("- Ada vitamin untuk daya tahan tubuh?")
-    st.markdown("- Apakah bisa tebus resep dokter?")
+if "messages" not in st.session_state:
+    st.session_state.messages = [
+        {
+            "role": "assistant",
+            "content": "Halo, saya ApotekCare Assistant. Ada yang bisa saya bantu seputar layanan apotek atau rekomendasi produk non-resep?",
+        }
+    ]
 
-    if st.button("Latih ulang model"):
-        result = subprocess.run(
-            [sys.executable, str(ROOT_DIR / "scripts" / "train_model.py")],
-            cwd=str(ROOT_DIR),
-            capture_output=True,
-            text=True,
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+question = st.chat_input("Tulis pertanyaan Anda di sini...")
+
+if question:
+    st.session_state.messages.append({"role": "user", "content": question})
+
+    with st.chat_message("user"):
+        st.markdown(question)
+
+    result = chatbot_response(question, threshold=threshold)
+    answer = result["answer"]
+
+    with st.chat_message("assistant"):
+        st.markdown(answer)
+        st.caption(
+            f"Intent: `{result['intent']}` | Confidence: `{result['confidence']:.3f}` | Status: `{result['status']}`"
         )
-        if result.returncode == 0:
-            st.success("Model berhasil dilatih ulang. Silakan refresh halaman jika diperlukan.")
-        else:
-            st.error("Model gagal dilatih ulang.")
-            st.code(result.stderr)
 
-# Latih otomatis jika model belum ada
-if not (MODEL_PATH.exists() and VECTORIZER_PATH.exists() and LABEL_ENCODER_PATH.exists()):
-    with st.spinner("Model belum ditemukan. Melatih model baseline terlebih dahulu..."):
-        result = subprocess.run(
-            [sys.executable, str(ROOT_DIR / "scripts" / "train_model.py")],
-            cwd=str(ROOT_DIR),
-            capture_output=True,
-            text=True,
-        )
-        if result.returncode != 0:
-            st.error("Model gagal dibuat. Jalankan manual: python scripts/train_model.py")
-            st.code(result.stderr)
-            st.stop()
+    st.session_state.messages.append({"role": "assistant", "content": answer})
 
-col1, col2 = st.columns([2, 1])
-
-with col1:
-    st.subheader("Area Chat Interaktif")
-    user_question = st.text_input("Masukkan pertanyaan pelanggan:", placeholder="Contoh: Saya demam ringan, produk apa yang tersedia?")
-
-    if st.button("Kirim Pertanyaan") and user_question.strip():
-        result = chatbot_response(user_question)
-        st.markdown("### Jawaban Chatbot")
-        st.write(result["response"])
-
-        st.markdown("### Informasi Prediksi")
-        st.write(f"**Intent:** `{result['intent']}`")
-        if result["confidence"] is not None:
-            st.write(f"**Confidence:** `{result['confidence']:.4f}`")
-        st.write(f"**Teks setelah preprocessing:** `{result['clean_text']}`")
-
-with col2:
-    st.subheader("Dataset Ringkas")
-    data_dir = ROOT_DIR / "data" / "raw"
-    intent_df = pd.read_csv(data_dir / "intent_dataset.csv")
-    faq_df = pd.read_csv(data_dir / "faq_apotekcare.csv")
-    product_df = pd.read_csv(data_dir / "product_catalog.csv")
-
-    st.metric("FAQ", len(faq_df))
-    st.metric("Data Intent", len(intent_df))
-    st.metric("Jumlah Intent", intent_df["intent"].nunique())
-    st.metric("Produk/Kategori", len(product_df))
-
-    st.markdown("### Distribusi Intent")
-    st.bar_chart(intent_df["intent"].value_counts())
+if st.button("Reset Percakapan"):
+    st.session_state.messages = [
+        {
+            "role": "assistant",
+            "content": "Percakapan telah direset. Silakan ajukan pertanyaan baru seputar ApotekCare.",
+        }
+    ]
+    st.rerun()

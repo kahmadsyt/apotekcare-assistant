@@ -1,6 +1,6 @@
 # Evaluation Report - ApotekCare Assistant
 
-Generated at: 2026-07-02T15:25:11.585493
+Generated at: 2026-07-02T22:56:20.179372
 Best model: **Multinomial Naive Bayes**
 Best accuracy: **0.9732**
 

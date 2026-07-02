@@ -1,0 +1,4 @@
+actual_intent,predicted_intent,jumlah_error
+rekomendasi_pencernaan,rekomendasi_demam_nyeri,3
+info_pemesanan,info_resep,2
+rekomendasi_pencernaan,rekomendasi_perawatan_luka,1

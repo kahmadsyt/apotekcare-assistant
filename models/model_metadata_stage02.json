@@ -1,0 +1,32 @@
+{
+  "best_model": "logistic_regression",
+  "model_path": "D:/DATA-KAMIL/MATKUL/SEMESTER-1/DATA-MINING/TUGAS/UAS/apotekcare-assistant/models/apotekcare_intent_model_stage02.pkl",
+  "confidence_threshold": 0.45,
+  "threshold_note": "Threshold awal 0.45. Nilai ini dapat dinaikkan menjadi 0.50-0.60 jika chatbot terlalu sering memaksa menjawab.",
+  "n_dataset": 560,
+  "n_intents": 18,
+  "intents": [
+    "batasan_medis",
+    "cek_stok_produk",
+    "greeting",
+    "info_jam_operasional",
+    "info_pembayaran",
+    "info_pemesanan",
+    "info_pengiriman",
+    "info_promo",
+    "info_resep",
+    "konsultasi_apoteker",
+    "out_of_scope",
+    "rekomendasi_alat_kesehatan",
+    "rekomendasi_batuk_flu",
+    "rekomendasi_demam_nyeri",
+    "rekomendasi_pencernaan",
+    "rekomendasi_perawatan_luka",
+    "rekomendasi_produk_bayi",
+    "rekomendasi_vitamin"
+  ],
+  "detected_dataset_file": "data\\processed\\intent_dataset_clean.csv",
+  "detected_text_column": "text",
+  "detected_label_column": "intent",
+  "evaluation_metric_priority": "f1_macro"
+}
