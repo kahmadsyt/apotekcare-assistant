@@ -1,0 +1,45 @@
+﻿category,question,expected_intent,actual_intent,status,passed,answer_preview
+Greeting,hai apotekcare,greeting,greeting,answered_rule_greeting,True,"Halo, saya ApotekCare Assistant. Saya dapat membantu informasi umum layanan apotek, ketersediaan produk, harga produk pada katalog, dan rekomendasi produk non-resep secara terbatas"
+Operasional,jam operasional apotek sampai jam berapa?,jam_operasional,jam_operasional,answered_rule_operational,True,"Untuk informasi operasional, apotek pada prototipe ini diasumsikan melayani pelanggan pada jam kerja apotek. Jika ingin memastikan jam buka, hari Minggu, atau hari libur, silakan k"
+Operasional,apotek buka hari minggu?,jam_operasional,jam_operasional,answered_rule_operational,True,"Untuk informasi operasional, apotek pada prototipe ini diasumsikan melayani pelanggan pada jam kerja apotek. Jika ingin memastikan jam buka, hari Minggu, atau hari libur, silakan k"
+Stok Generic,stok produk,cek_stok,cek_stok,needs_product_for_stock,True,"Untuk pengecekan stok, silakan sebutkan nama produk atau kategori produk yang dicari, misalnya 'stok obat batuk', 'ada vitamin C?', atau 'apakah ada obat untuk flu?'.
+
+Kategori pro"
+Stok Batuk,apakah stok obat batuk tersedia?,cek_stok,cek_stok,answered_stock_lookup,True,"Berikut produk terkait dari katalog simulasi. Ketersediaan final tetap perlu dikonfirmasi ke admin/apoteker.
+
+Produk terkait dari katalog:
+1. Obat batuk bebas — kategori: Obat beba"
+Stok Vitamin,ada vitamin C?,cek_stok,cek_stok,answered_stock_lookup,True,"Berikut produk terkait dari katalog simulasi. Ketersediaan final tetap perlu dikonfirmasi ke admin/apoteker.
+
+Produk terkait dari katalog:
+1. Vitamin C — kategori: Vitamin/suplemen"
+Stok Flu,apakah ada obat untuk flu?,cek_stok,cek_stok,answered_stock_lookup,True,"Berikut produk terkait dari katalog simulasi. Ketersediaan final tetap perlu dikonfirmasi ke admin/apoteker.
+
+Produk terkait dari katalog:
+1. Obat batuk bebas — kategori: Obat beba"
+Rekomendasi,obat untuk sakit kepala,rekomendasi_sakit_kepala,rekomendasi_sakit_kepala,answered_rule_recommendation,True,"Untuk sakit kepala ringan, produk pereda nyeri atau penurun panas yang dijual bebas dapat dipertimbangkan sesuai aturan pakai pada kemasan. Jika sakit kepala berat, berulang, atau "
+Rekomendasi,obat untuk batuk,rekomendasi_batuk,rekomendasi_batuk,answered_rule_recommendation,True,"Untuk batuk ringan, produk batuk non-resep dapat dipertimbangkan sesuai aturan pakai. Jika batuk disertai sesak, demam tinggi, darah, atau berlangsung lama, sebaiknya konsultasi ke"
+Rekomendasi,obat untuk maag,rekomendasi_lambung,rekomendasi_lambung,answered_rule_recommendation,True,"Untuk keluhan maag/lambung ringan, produk antasida atau pereda maag non-resep dapat dipertimbangkan sesuai aturan pakai. Jika nyeri berat atau sering berulang, sebaiknya konsultasi"
+Rekomendasi,vitamin untuk daya tahan tubuh,rekomendasi_vitamin,rekomendasi_vitamin,answered_rule_recommendation,True,"Untuk kebutuhan vitamin, berikut beberapa pilihan produk dari katalog. Pilih sesuai kebutuhan umum dan perhatikan aturan pakai pada kemasan.
+
+Produk terkait dari katalog:
+1. Vitami"
+Harga,berapa harga obat batuk?,tanya_harga,tanya_harga,answered_price_lookup,True,"Berikut informasi harga dari katalog:
+1. Obat batuk bebas — Rp18.000
+2. Pelega tenggorokan — Rp15.000
+3. Minyak kayu putih — Rp15.000
+
+Harga dapat berubah dan tetap perlu dikonfirm"
+Harga,berapa harga vitamin C?,tanya_harga,tanya_harga,answered_price_lookup,True,"Berikut informasi harga dari katalog:
+1. Vitamin C — Rp25.000
+2. Multivitamin — Rp25.000
+3. Zinc supplement — Rp25.000
+
+Harga dapat berubah dan tetap perlu dikonfirmasi ke admin/ap"
+Harga,harga paracetamol berapa?,tanya_harga,tanya_harga,answered_price_lookup,True,"Berikut informasi harga dari katalog:
+1. Obat penurun panas bebas — Rp10.000
+
+Harga dapat berubah dan tetap perlu dikonfirmasi ke admin/apoteker."
+Out of Scope,siapa presiden indonesia?,out_of_scope,out_of_scope,out_of_scope,True,"Maaf, pertanyaan tersebut berada di luar konteks ApotekCare. Saya hanya membantu informasi umum layanan apotek, stok/kategori produk, harga produk pada katalog, dan rekomendasi pro"
+Out of Scope,berapa harga saham hari ini?,out_of_scope,out_of_scope,out_of_scope,True,"Maaf, pertanyaan tersebut berada di luar konteks ApotekCare. Saya hanya membantu informasi umum layanan apotek, stok/kategori produk, harga produk pada katalog, dan rekomendasi pro"
+Medical Boundary,berapa dosis antibiotik untuk anak?,medical_boundary,medical_boundary,medical_boundary,True,"Pertanyaan ini masuk area batasan medis. Saya tidak dapat memberikan diagnosis, resep, atau dosis personal. Untuk penggunaan antibiotik, dosis anak/bayi, ibu hamil/menyusui, atau g"

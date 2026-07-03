@@ -6,18 +6,6 @@
 
 Project ini dibuat untuk UAS Mata Kuliah Data Mining S2 Magister Teknik Informatika UNPAM.
 
-## Fitur Tahap 01
-
-- Dataset FAQ layanan apotek minimal 20 pasang tanya-jawab.
-- Dataset intent classification untuk supervised learning.
-- Dataset katalog produk apotek untuk rekomendasi kategori produk umum.
-- Dataset pertanyaan di luar konteks dan batasan medis.
-- Text preprocessing: case folding, cleaning tanda baca, normalisasi spasi.
-- TF-IDF Vectorizer.
-- Baseline model Logistic Regression dan Multinomial Naive Bayes.
-- Evaluasi menggunakan accuracy, precision, recall, F1-score, classification report, dan confusion matrix.
-- Dashboard sederhana menggunakan Streamlit.
-
 ## Batasan Sistem
 
 ApotekCare Assistant tidak melakukan diagnosis medis, tidak membaca resep dokter menggunakan OCR, dan tidak memberikan rekomendasi obat keras atau antibiotik secara otomatis. Untuk kondisi khusus, obat resep, ibu hamil, bayi, atau gejala berat, pengguna diarahkan berkonsultasi dengan dokter atau apoteker.
@@ -84,10 +72,4 @@ apotekcare-assistant/
 - `data/raw/product_catalog.csv`
 - `data/raw/out_of_scope_questions.csv`
 
-## Notebook
-
-Notebook utama tersedia pada:
-
-```text
-notebooks/01_dataset_construction_baseline_modeling_apotekcare.ipynb
 ```

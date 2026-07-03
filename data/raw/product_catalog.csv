@@ -1,21 +1,21 @@
-product_id,product_name,category,related_intent,description,recommendation_rule,safety_note
-PRD001,Obat batuk bebas,Obat bebas,rekomendasi_batuk_flu,Produk untuk membantu meredakan batuk ringan.,Ditampilkan jika user bertanya batuk ringan.,Baca aturan pakai dan konsultasi apoteker.
-PRD002,Pelega tenggorokan,Obat bebas/produk kesehatan,rekomendasi_batuk_flu,Produk untuk membantu meredakan tenggorokan tidak nyaman.,Ditampilkan untuk keluhan tenggorokan gatal.,Tidak untuk keluhan berat tanpa konsultasi.
-PRD003,Minyak kayu putih,Produk kesehatan,rekomendasi_batuk_flu,Produk luar untuk rasa hangat dan kenyamanan tubuh.,Ditampilkan untuk flu ringan atau masuk angin.,Pemakaian luar.
-PRD004,Obat penurun panas bebas,Obat bebas,rekomendasi_demam_nyeri,Produk untuk demam atau nyeri ringan sesuai aturan pakai.,Ditampilkan untuk demam ringan atau nyeri ringan.,"Jika demam tinggi/berulang, konsultasi dokter."
-PRD005,Termometer digital,Alat kesehatan,rekomendasi_demam_nyeri,Alat untuk mengukur suhu tubuh.,Ditampilkan untuk pertanyaan demam atau cek suhu.,Bukan alat diagnosis mandiri.
-PRD006,Vitamin C,Vitamin/suplemen,rekomendasi_vitamin,Vitamin untuk membantu menjaga daya tahan tubuh.,Ditampilkan untuk kebutuhan daya tahan tubuh.,Sesuaikan kebutuhan dan kondisi tubuh.
-PRD007,Multivitamin,Vitamin/suplemen,rekomendasi_vitamin,Suplemen umum untuk menunjang kebutuhan vitamin.,Ditampilkan untuk pertanyaan stamina/kesehatan umum.,Tidak menggantikan pola makan sehat.
-PRD008,Zinc supplement,Vitamin/suplemen,rekomendasi_vitamin,Suplemen mineral untuk kebutuhan umum tertentu.,Ditampilkan bersama vitamin daya tahan tubuh.,Konsultasikan bila memiliki kondisi khusus.
-PRD009,Oralit,Produk rehidrasi,rekomendasi_pencernaan,Produk untuk membantu mengganti cairan tubuh.,Ditampilkan untuk diare ringan/dehidrasi ringan.,"Jika diare berat/berdarah, konsultasi dokter."
-PRD010,Antasida,Obat bebas,rekomendasi_pencernaan,Produk untuk membantu keluhan lambung ringan.,Ditampilkan untuk pertanyaan maag ringan.,Tidak untuk nyeri berat berulang tanpa konsultasi.
-PRD011,Masker medis,Alat kesehatan,rekomendasi_alat_kesehatan,Masker untuk perlindungan kebersihan dan kesehatan.,Ditampilkan untuk pertanyaan masker.,Gunakan sesuai kebutuhan.
-PRD012,Hand sanitizer,Produk kebersihan,rekomendasi_alat_kesehatan,Produk pembersih tangan berbasis antiseptik.,Ditampilkan untuk pertanyaan kebersihan tangan.,Hindari kontak mata dan api.
-PRD013,Plester luka,Perawatan luka,rekomendasi_perawatan_luka,Produk untuk menutup luka ringan.,Ditampilkan untuk luka kecil/ringan.,Luka dalam/bernanah perlu tenaga kesehatan.
-PRD014,Kasa steril,Perawatan luka,rekomendasi_perawatan_luka,Produk pendukung perawatan luka ringan.,Ditampilkan untuk luka ringan.,Gunakan secara higienis.
-PRD015,Antiseptik luar,Perawatan luka,rekomendasi_perawatan_luka,Produk luar untuk membersihkan area luka ringan.,Ditampilkan untuk perawatan luka ringan.,Pemakaian luar.
-PRD016,Alat cek gula darah,Alat kesehatan,rekomendasi_alat_kesehatan,Alat bantu pemantauan gula darah.,Ditampilkan untuk pertanyaan alat cek gula.,Interpretasi hasil perlu tenaga kesehatan.
-PRD017,Strip gula darah,Alat kesehatan,rekomendasi_alat_kesehatan,Strip pendukung alat cek gula darah.,Ditampilkan bersama alat cek gula darah.,Pastikan kompatibilitas alat.
-PRD018,Tisu basah bayi,Produk bayi,rekomendasi_produk_bayi,Produk perawatan bayi umum.,Ditampilkan untuk kebutuhan bayi non-obat.,"Untuk obat bayi, konsultasi tenaga kesehatan."
-PRD019,Minyak telon,Produk bayi,rekomendasi_produk_bayi,Produk luar untuk kenyamanan bayi.,Ditampilkan untuk kebutuhan perawatan bayi.,Pemakaian luar dan hindari iritasi.
-PRD020,Popok bayi,Produk bayi,rekomendasi_produk_bayi,Produk kebutuhan bayi harian.,Ditampilkan untuk pertanyaan produk bayi.,Tidak ada.
+product_id,product_name,category,related_intent,description,recommendation_rule,safety_note,harga
+PRD001,Obat batuk bebas,Obat bebas,rekomendasi_batuk_flu,Produk untuk membantu meredakan batuk ringan.,Ditampilkan jika user bertanya batuk ringan.,Baca aturan pakai dan konsultasi apoteker.,Rp18.000
+PRD002,Pelega tenggorokan,Obat bebas/produk kesehatan,rekomendasi_batuk_flu,Produk untuk membantu meredakan tenggorokan tidak nyaman.,Ditampilkan untuk keluhan tenggorokan gatal.,Tidak untuk keluhan berat tanpa konsultasi.,Rp15.000
+PRD003,Minyak kayu putih,Produk kesehatan,rekomendasi_batuk_flu,Produk luar untuk rasa hangat dan kenyamanan tubuh.,Ditampilkan untuk flu ringan atau masuk angin.,Pemakaian luar.,Rp15.000
+PRD004,Obat penurun panas bebas,Obat bebas,rekomendasi_demam_nyeri,Produk untuk demam atau nyeri ringan sesuai aturan pakai.,Ditampilkan untuk demam ringan atau nyeri ringan.,"Jika demam tinggi/berulang, konsultasi dokter.",Rp10.000
+PRD005,Termometer digital,Alat kesehatan,rekomendasi_demam_nyeri,Alat untuk mengukur suhu tubuh.,Ditampilkan untuk pertanyaan demam atau cek suhu.,Bukan alat diagnosis mandiri.,Rp45.000
+PRD006,Vitamin C,Vitamin/suplemen,rekomendasi_vitamin,Vitamin untuk membantu menjaga daya tahan tubuh.,Ditampilkan untuk kebutuhan daya tahan tubuh.,Sesuaikan kebutuhan dan kondisi tubuh.,Rp25.000
+PRD007,Multivitamin,Vitamin/suplemen,rekomendasi_vitamin,Suplemen umum untuk menunjang kebutuhan vitamin.,Ditampilkan untuk pertanyaan stamina/kesehatan umum.,Tidak menggantikan pola makan sehat.,Rp25.000
+PRD008,Zinc supplement,Vitamin/suplemen,rekomendasi_vitamin,Suplemen mineral untuk kebutuhan umum tertentu.,Ditampilkan bersama vitamin daya tahan tubuh.,Konsultasikan bila memiliki kondisi khusus.,Rp25.000
+PRD009,Oralit,Produk rehidrasi,rekomendasi_pencernaan,Produk untuk membantu mengganti cairan tubuh.,Ditampilkan untuk diare ringan/dehidrasi ringan.,"Jika diare berat/berdarah, konsultasi dokter.",Rp15.000
+PRD010,Antasida,Obat bebas,rekomendasi_pencernaan,Produk untuk membantu keluhan lambung ringan.,Ditampilkan untuk pertanyaan maag ringan.,Tidak untuk nyeri berat berulang tanpa konsultasi.,Rp12.000
+PRD011,Masker medis,Alat kesehatan,rekomendasi_alat_kesehatan,Masker untuk perlindungan kebersihan dan kesehatan.,Ditampilkan untuk pertanyaan masker.,Gunakan sesuai kebutuhan.,Rp45.000
+PRD012,Hand sanitizer,Produk kebersihan,rekomendasi_alat_kesehatan,Produk pembersih tangan berbasis antiseptik.,Ditampilkan untuk pertanyaan kebersihan tangan.,Hindari kontak mata dan api.,Rp15.000
+PRD013,Plester luka,Perawatan luka,rekomendasi_perawatan_luka,Produk untuk menutup luka ringan.,Ditampilkan untuk luka kecil/ringan.,Luka dalam/bernanah perlu tenaga kesehatan.,Rp15.000
+PRD014,Kasa steril,Perawatan luka,rekomendasi_perawatan_luka,Produk pendukung perawatan luka ringan.,Ditampilkan untuk luka ringan.,Gunakan secara higienis.,Rp15.000
+PRD015,Antiseptik luar,Perawatan luka,rekomendasi_perawatan_luka,Produk luar untuk membersihkan area luka ringan.,Ditampilkan untuk perawatan luka ringan.,Pemakaian luar.,Rp15.000
+PRD016,Alat cek gula darah,Alat kesehatan,rekomendasi_alat_kesehatan,Alat bantu pemantauan gula darah.,Ditampilkan untuk pertanyaan alat cek gula.,Interpretasi hasil perlu tenaga kesehatan.,Rp45.000
+PRD017,Strip gula darah,Alat kesehatan,rekomendasi_alat_kesehatan,Strip pendukung alat cek gula darah.,Ditampilkan bersama alat cek gula darah.,Pastikan kompatibilitas alat.,Rp45.000
+PRD018,Tisu basah bayi,Produk bayi,rekomendasi_produk_bayi,Produk perawatan bayi umum.,Ditampilkan untuk kebutuhan bayi non-obat.,"Untuk obat bayi, konsultasi tenaga kesehatan.",Rp15.000
+PRD019,Minyak telon,Produk bayi,rekomendasi_produk_bayi,Produk luar untuk kenyamanan bayi.,Ditampilkan untuk kebutuhan perawatan bayi.,Pemakaian luar dan hindari iritasi.,Rp15.000
+PRD020,Popok bayi,Produk bayi,rekomendasi_produk_bayi,Produk kebutuhan bayi harian.,Ditampilkan untuk pertanyaan produk bayi.,Tidak ada.,Rp15.000

@@ -1,0 +1,41 @@
+case_id,scope,category,question,expected_intent,expected_status_note
+IN_01,in_scope,greeting,hai apotekcare,greeting,Chatbot menyapa pengguna
+IN_02,in_scope,layanan_apotek,jam operasional apotek sampai jam berapa?,jam_operasional,Menjawab informasi operasional
+IN_03,in_scope,layanan_apotek,apotek buka hari minggu?,jam_operasional,Menjawab informasi hari buka/operasional
+IN_04,in_scope,layanan_apotek,lokasi apotek dimana?,lokasi_apotek,Menjawab informasi lokasi secara umum
+IN_05,in_scope,stok_produk,stok produk,cek_stok,Meminta pengguna menyebutkan produk/kategori
+IN_06,in_scope,stok_produk,apakah stok obat batuk tersedia?,cek_stok,Menampilkan produk batuk dari katalog
+IN_07,in_scope,stok_produk,ada vitamin C?,cek_stok,Menampilkan produk vitamin C dari katalog
+IN_08,in_scope,stok_produk,apakah ada obat untuk flu?,cek_stok,Menjawab ketersediaan produk flu atau menyatakan katalog belum tersedia
+IN_09,in_scope,stok_produk,apakah ada pelega tenggorokan?,cek_stok,Menampilkan produk tenggorokan jika ada
+IN_10,in_scope,rekomendasi_produk,obat untuk sakit kepala,rekomendasi_sakit_kepala,Menjawab rekomendasi sakit kepala ringan
+IN_11,in_scope,rekomendasi_produk,obat untuk batuk,rekomendasi_batuk,Menjawab rekomendasi batuk ringan
+IN_12,in_scope,rekomendasi_produk,obat untuk maag,rekomendasi_lambung,Menjawab rekomendasi maag/lambung
+IN_13,in_scope,rekomendasi_produk,obat untuk demam,rekomendasi_demam,Menjawab rekomendasi demam ringan
+IN_14,in_scope,rekomendasi_produk,vitamin untuk daya tahan tubuh,rekomendasi_vitamin,Menampilkan produk vitamin
+IN_15,in_scope,harga_produk,berapa harga obat batuk?,tanya_harga,Menampilkan harga obat batuk
+IN_16,in_scope,harga_produk,berapa harga vitamin C?,tanya_harga,Menampilkan harga vitamin C
+IN_17,in_scope,harga_produk,berapa harga pelega tenggorokan?,tanya_harga,Menampilkan harga produk pelega tenggorokan jika cocok
+IN_18,in_scope,harga_produk,berapa harga minyak kayu putih?,tanya_harga,Menampilkan harga minyak kayu putih jika cocok
+IN_19,in_scope,harga_produk,harganya berapa?,tanya_harga,Menjawab harga berdasarkan konteks produk sebelumnya
+IN_20,in_scope,layanan_produk,produk apa saja yang tersedia di katalog?,cek_stok,Menjawab dengan arahan kategori/katalog produk
+OUT_01,out_of_scope,politik,siapa presiden indonesia?,out_of_scope,Menolak karena bukan domain apotek
+OUT_02,out_of_scope,politik,berita politik hari ini apa?,out_of_scope,Menolak karena bukan domain apotek
+OUT_03,out_of_scope,finansial,berapa harga saham hari ini?,out_of_scope,Menolak karena bukan domain apotek
+OUT_04,out_of_scope,finansial,bagaimana prediksi bitcoin minggu ini?,out_of_scope,Menolak karena bukan domain apotek
+OUT_05,out_of_scope,finansial,berapa kurs dollar ke rupiah hari ini?,out_of_scope,Menolak karena bukan domain apotek
+OUT_06,out_of_scope,travel,rekomendasi hotel murah di bandung,out_of_scope,Menolak karena bukan domain apotek
+OUT_07,out_of_scope,travel,berapa harga tiket pesawat jakarta bali?,out_of_scope,Menolak karena bukan domain apotek
+OUT_08,out_of_scope,cuaca,cuaca jakarta hari ini bagaimana?,out_of_scope,Menolak karena bukan domain apotek
+OUT_09,out_of_scope,programming,buatkan kode python untuk scraping,out_of_scope,Menolak karena bukan domain apotek
+OUT_10,out_of_scope,it,jelaskan konfigurasi router mikrotik,out_of_scope,Menolak karena bukan domain apotek
+OUT_11,out_of_scope,hiburan,rekomendasi film bioskop terbaru,out_of_scope,Menolak karena bukan domain apotek
+OUT_12,out_of_scope,hiburan,game online apa yang bagus?,out_of_scope,Menolak karena bukan domain apotek
+OUT_13,out_of_scope,musik,buatkan lirik lagu pop,out_of_scope,Menolak karena bukan domain apotek
+OUT_14,out_of_scope,akademik,bantu buatkan skripsi data mining,out_of_scope,Menolak karena bukan domain apotek
+OUT_15,out_of_scope,kuliner,rekomendasi restoran enak di jakarta,out_of_scope,Menolak karena bukan domain apotek
+OUT_16,out_of_scope,matematika,hitung 125 dikali 47 berapa?,out_of_scope,Menolak karena bukan domain apotek
+OUT_17,out_of_scope,olahraga,hasil pertandingan sepak bola tadi malam?,out_of_scope,Menolak karena bukan domain apotek
+OUT_18,out_of_scope,karier,bantu buatkan CV untuk melamar kerja,out_of_scope,Menolak karena bukan domain apotek
+OUT_19,out_of_scope,belanja,berapa harga laptop gaming terbaru?,out_of_scope,Menolak karena bukan domain apotek
+OUT_20,out_of_scope,pinjaman,apakah pinjaman online aman?,out_of_scope,Menolak karena bukan domain apotek
